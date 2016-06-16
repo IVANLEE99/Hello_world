@@ -25,10 +25,10 @@ function (callback) {
 		callback();
 	}, 500);
 },
-function (callback) {
+function () {
 	setTimeout(function () {
 		console.log('33-----');
-		callback();
+		
 	}, 100);
 }
 ]);
