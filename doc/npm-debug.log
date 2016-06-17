@@ -1,0 +1,2007 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/local/bin/node',
+1 verbose cli   '/usr/local/bin/npm',
+1 verbose cli   'install',
+1 verbose cli   'win32ole' ]
+2 info using npm@3.8.3
+3 info using node@v5.10.1
+4 silly loadCurrentTree Starting
+5 silly install loadCurrentTree
+6 silly install readLocalPackageData
+7 silly fetchPackageMetaData win32ole
+8 silly fetchNamedPackageData win32ole
+9 silly mapToRegistry name win32ole
+10 silly mapToRegistry using default registry
+11 silly mapToRegistry registry https://registry.npmjs.org/
+12 silly mapToRegistry data Result {
+12 silly mapToRegistry   raw: 'win32ole',
+12 silly mapToRegistry   scope: null,
+12 silly mapToRegistry   name: 'win32ole',
+12 silly mapToRegistry   rawSpec: '',
+12 silly mapToRegistry   spec: 'latest',
+12 silly mapToRegistry   type: 'tag' }
+13 silly mapToRegistry uri https://registry.npmjs.org/win32ole
+14 verbose request uri https://registry.npmjs.org/win32ole
+15 verbose request no auth needed
+16 info attempt registry request try #1 at 14:05:26
+17 verbose request id de29061358bd21d9
+18 http request GET https://registry.npmjs.org/win32ole
+19 http 200 https://registry.npmjs.org/win32ole
+20 verbose headers { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+20 verbose headers   etag: '"2KYBOBQCNS12BHBBM09ZOZCOY"',
+20 verbose headers   'content-type': 'application/json',
+20 verbose headers   'content-encoding': 'gzip',
+20 verbose headers   'cache-control': 'max-age=300',
+20 verbose headers   'content-length': '4024',
+20 verbose headers   'accept-ranges': 'bytes',
+20 verbose headers   date: 'Fri, 17 Jun 2016 06:05:30 GMT',
+20 verbose headers   via: '1.1 varnish',
+20 verbose headers   age: '0',
+20 verbose headers   connection: 'keep-alive',
+20 verbose headers   'x-served-by': 'cache-lcy1132-LCY',
+20 verbose headers   'x-cache': 'MISS',
+20 verbose headers   'x-cache-hits': '0',
+20 verbose headers   'x-timer': 'S1466143530.542841,VS0,VE98',
+20 verbose headers   vary: 'Accept-Encoding' }
+21 silly get cb [ 200,
+21 silly get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+21 silly get     etag: '"2KYBOBQCNS12BHBBM09ZOZCOY"',
+21 silly get     'content-type': 'application/json',
+21 silly get     'content-encoding': 'gzip',
+21 silly get     'cache-control': 'max-age=300',
+21 silly get     'content-length': '4024',
+21 silly get     'accept-ranges': 'bytes',
+21 silly get     date: 'Fri, 17 Jun 2016 06:05:30 GMT',
+21 silly get     via: '1.1 varnish',
+21 silly get     age: '0',
+21 silly get     connection: 'keep-alive',
+21 silly get     'x-served-by': 'cache-lcy1132-LCY',
+21 silly get     'x-cache': 'MISS',
+21 silly get     'x-cache-hits': '0',
+21 silly get     'x-timer': 'S1466143530.542841,VS0,VE98',
+21 silly get     vary: 'Accept-Encoding' } ]
+22 verbose get saving win32ole to /Users/ivanlee/.npm/registry.npmjs.org/win32ole/.cache.json
+23 verbose correctMkdir /Users/ivanlee/.npm correctMkdir not in flight; initializing
+24 silly install normalizeTree
+25 silly loadCurrentTree Finishing
+26 silly loadIdealTree Starting
+27 silly install loadIdealTree
+28 silly cloneCurrentTree Starting
+29 silly install cloneCurrentTreeToIdealTree
+30 silly cloneCurrentTree Finishing
+31 silly loadShrinkwrap Starting
+32 silly install loadShrinkwrap
+33 silly loadShrinkwrap Finishing
+34 silly loadAllDepsIntoIdealTree Starting
+35 silly install loadAllDepsIntoIdealTree
+36 silly resolveWithNewModule win32ole@0.1.3 checking installable status
+37 silly cache add args [ 'win32ole', null ]
+38 verbose cache add spec win32ole
+39 silly cache add parsed spec Result {
+39 silly cache add   raw: 'win32ole',
+39 silly cache add   scope: null,
+39 silly cache add   name: 'win32ole',
+39 silly cache add   rawSpec: '',
+39 silly cache add   spec: 'latest',
+39 silly cache add   type: 'tag' }
+40 silly addNamed win32ole@latest
+41 verbose addNamed "latest" is being treated as a dist-tag for win32ole
+42 info addNameTag [ 'win32ole', 'latest' ]
+43 silly mapToRegistry name win32ole
+44 silly mapToRegistry using default registry
+45 silly mapToRegistry registry https://registry.npmjs.org/
+46 silly mapToRegistry data Result {
+46 silly mapToRegistry   raw: 'win32ole',
+46 silly mapToRegistry   scope: null,
+46 silly mapToRegistry   name: 'win32ole',
+46 silly mapToRegistry   rawSpec: '',
+46 silly mapToRegistry   spec: 'latest',
+46 silly mapToRegistry   type: 'tag' }
+47 silly mapToRegistry uri https://registry.npmjs.org/win32ole
+48 verbose addNameTag registry:https://registry.npmjs.org/win32ole not in flight; fetching
+49 verbose get https://registry.npmjs.org/win32ole not expired, no request
+50 silly addNameTag next cb for win32ole with tag latest
+51 silly addNamed win32ole@0.1.3
+52 verbose addNamed "0.1.3" is a plain semver version for win32ole
+53 silly mapToRegistry name win32ole
+54 silly mapToRegistry using default registry
+55 silly mapToRegistry registry https://registry.npmjs.org/
+56 silly mapToRegistry data Result {
+56 silly mapToRegistry   raw: 'win32ole',
+56 silly mapToRegistry   scope: null,
+56 silly mapToRegistry   name: 'win32ole',
+56 silly mapToRegistry   rawSpec: '',
+56 silly mapToRegistry   spec: 'latest',
+56 silly mapToRegistry   type: 'tag' }
+57 silly mapToRegistry uri https://registry.npmjs.org/win32ole
+58 verbose addRemoteTarball https://registry.npmjs.org/win32ole/-/win32ole-0.1.3.tgz not in flight; adding
+59 verbose addRemoteTarball [ 'https://registry.npmjs.org/win32ole/-/win32ole-0.1.3.tgz',
+59 verbose addRemoteTarball   'ecb4858f387618b8c285f369a836c5e32b003acf' ]
+60 info retry fetch attempt 1 at 14:05:31
+61 info attempt registry request try #1 at 14:05:31
+62 http fetch GET https://registry.npmjs.org/win32ole/-/win32ole-0.1.3.tgz
+63 http fetch 200 https://registry.npmjs.org/win32ole/-/win32ole-0.1.3.tgz
+64 silly fetchAndShaCheck shasum ecb4858f387618b8c285f369a836c5e32b003acf
+65 verbose addTmpTarball /var/folders/m9/j2w1lpcj38dcknq58_11mv9h0000gn/T/npm-4058-8b1a5861/registry.npmjs.org/win32ole/-/win32ole-0.1.3.tgz not in flight; adding
+66 verbose addTmpTarball already have metadata; skipping unpack for win32ole@0.1.3
+67 verbose correctMkdir /Users/ivanlee/.npm correctMkdir not in flight; initializing
+68 silly cache afterAdd win32ole@0.1.3
+69 verbose afterAdd /Users/ivanlee/.npm/win32ole/0.1.3/package/package.json not in flight; writing
+70 verbose correctMkdir /Users/ivanlee/.npm correctMkdir not in flight; initializing
+71 verbose afterAdd /Users/ivanlee/.npm/win32ole/0.1.3/package/package.json written
+72 silly fetchNamedPackageData assert
+73 silly mapToRegistry name assert
+74 silly mapToRegistry using default registry
+75 silly mapToRegistry registry https://registry.npmjs.org/
+76 silly mapToRegistry data Result {
+76 silly mapToRegistry   raw: 'assert',
+76 silly mapToRegistry   scope: null,
+76 silly mapToRegistry   name: 'assert',
+76 silly mapToRegistry   rawSpec: '',
+76 silly mapToRegistry   spec: 'latest',
+76 silly mapToRegistry   type: 'tag' }
+77 silly mapToRegistry uri https://registry.npmjs.org/assert
+78 silly fetchNamedPackageData async
+79 silly mapToRegistry name async
+80 silly mapToRegistry using default registry
+81 silly mapToRegistry registry https://registry.npmjs.org/
+82 silly mapToRegistry data Result {
+82 silly mapToRegistry   raw: 'async',
+82 silly mapToRegistry   scope: null,
+82 silly mapToRegistry   name: 'async',
+82 silly mapToRegistry   rawSpec: '',
+82 silly mapToRegistry   spec: 'latest',
+82 silly mapToRegistry   type: 'tag' }
+83 silly mapToRegistry uri https://registry.npmjs.org/async
+84 silly fetchNamedPackageData ref-struct
+85 silly mapToRegistry name ref-struct
+86 silly mapToRegistry using default registry
+87 silly mapToRegistry registry https://registry.npmjs.org/
+88 silly mapToRegistry data Result {
+88 silly mapToRegistry   raw: 'ref-struct',
+88 silly mapToRegistry   scope: null,
+88 silly mapToRegistry   name: 'ref-struct',
+88 silly mapToRegistry   rawSpec: '',
+88 silly mapToRegistry   spec: 'latest',
+88 silly mapToRegistry   type: 'tag' }
+89 silly mapToRegistry uri https://registry.npmjs.org/ref-struct
+90 silly fetchNamedPackageData ref
+91 silly mapToRegistry name ref
+92 silly mapToRegistry using default registry
+93 silly mapToRegistry registry https://registry.npmjs.org/
+94 silly mapToRegistry data Result {
+94 silly mapToRegistry   raw: 'ref',
+94 silly mapToRegistry   scope: null,
+94 silly mapToRegistry   name: 'ref',
+94 silly mapToRegistry   rawSpec: '',
+94 silly mapToRegistry   spec: 'latest',
+94 silly mapToRegistry   type: 'tag' }
+95 silly mapToRegistry uri https://registry.npmjs.org/ref
+96 verbose request uri https://registry.npmjs.org/ref-struct
+97 verbose request no auth needed
+98 info attempt registry request try #1 at 14:05:32
+99 http request GET https://registry.npmjs.org/ref-struct
+100 verbose request uri https://registry.npmjs.org/ref
+101 verbose request no auth needed
+102 info attempt registry request try #1 at 14:05:32
+103 http request GET https://registry.npmjs.org/ref
+104 verbose request uri https://registry.npmjs.org/async
+105 verbose request no auth needed
+106 info attempt registry request try #1 at 14:05:32
+107 verbose etag "DF2HIQUZP71ZRU2SR8CH8MKNC"
+108 http request GET https://registry.npmjs.org/async
+109 verbose request uri https://registry.npmjs.org/assert
+110 verbose request no auth needed
+111 info attempt registry request try #1 at 14:05:32
+112 verbose etag "3NJDMHYAD3TWZFYIUGDWH5JF5"
+113 http request GET https://registry.npmjs.org/assert
+114 http 200 https://registry.npmjs.org/ref-struct
+115 verbose headers { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+115 verbose headers   etag: '"527ZZ367YZN3UJUOEH1WQBXZ0"',
+115 verbose headers   'content-type': 'application/json',
+115 verbose headers   'content-encoding': 'gzip',
+115 verbose headers   'cache-control': 'max-age=300',
+115 verbose headers   'content-length': '3656',
+115 verbose headers   'accept-ranges': 'bytes',
+115 verbose headers   date: 'Fri, 17 Jun 2016 06:05:32 GMT',
+115 verbose headers   via: '1.1 varnish',
+115 verbose headers   age: '0',
+115 verbose headers   connection: 'keep-alive',
+115 verbose headers   'x-served-by': 'cache-lcy1132-LCY',
+115 verbose headers   'x-cache': 'MISS',
+115 verbose headers   'x-cache-hits': '0',
+115 verbose headers   'x-timer': 'S1466143532.806438,VS0,VE173',
+115 verbose headers   vary: 'Accept-Encoding' }
+116 silly get cb [ 200,
+116 silly get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+116 silly get     etag: '"527ZZ367YZN3UJUOEH1WQBXZ0"',
+116 silly get     'content-type': 'application/json',
+116 silly get     'content-encoding': 'gzip',
+116 silly get     'cache-control': 'max-age=300',
+116 silly get     'content-length': '3656',
+116 silly get     'accept-ranges': 'bytes',
+116 silly get     date: 'Fri, 17 Jun 2016 06:05:32 GMT',
+116 silly get     via: '1.1 varnish',
+116 silly get     age: '0',
+116 silly get     connection: 'keep-alive',
+116 silly get     'x-served-by': 'cache-lcy1132-LCY',
+116 silly get     'x-cache': 'MISS',
+116 silly get     'x-cache-hits': '0',
+116 silly get     'x-timer': 'S1466143532.806438,VS0,VE173',
+116 silly get     vary: 'Accept-Encoding' } ]
+117 verbose get saving ref-struct to /Users/ivanlee/.npm/registry.npmjs.org/ref-struct/.cache.json
+118 verbose correctMkdir /Users/ivanlee/.npm correctMkdir not in flight; initializing
+119 silly resolveWithNewModule ref-struct@1.0.2 checking installable status
+120 silly cache add args [ 'ref-struct@>= 0.0.5', null ]
+121 verbose cache add spec ref-struct@>= 0.0.5
+122 silly cache add parsed spec Result {
+122 silly cache add   raw: 'ref-struct@>= 0.0.5',
+122 silly cache add   scope: null,
+122 silly cache add   name: 'ref-struct',
+122 silly cache add   rawSpec: '>= 0.0.5',
+122 silly cache add   spec: '>=0.0.5',
+122 silly cache add   type: 'range' }
+123 silly addNamed ref-struct@>=0.0.5
+124 verbose addNamed ">=0.0.5" is a valid semver range for ref-struct
+125 silly addNameRange { name: 'ref-struct', range: '>=0.0.5', hasData: false }
+126 silly mapToRegistry name ref-struct
+127 silly mapToRegistry using default registry
+128 silly mapToRegistry registry https://registry.npmjs.org/
+129 silly mapToRegistry data Result {
+129 silly mapToRegistry   raw: 'ref-struct',
+129 silly mapToRegistry   scope: null,
+129 silly mapToRegistry   name: 'ref-struct',
+129 silly mapToRegistry   rawSpec: '',
+129 silly mapToRegistry   spec: 'latest',
+129 silly mapToRegistry   type: 'tag' }
+130 silly mapToRegistry uri https://registry.npmjs.org/ref-struct
+131 verbose addNameRange registry:https://registry.npmjs.org/ref-struct not in flight; fetching
+132 verbose get https://registry.npmjs.org/ref-struct not expired, no request
+133 silly addNameRange number 2 { name: 'ref-struct', range: '>=0.0.5', hasData: true }
+134 silly addNameRange versions [ 'ref-struct',
+134 silly addNameRange   [ '0.0.1',
+134 silly addNameRange     '0.0.2',
+134 silly addNameRange     '0.0.3',
+134 silly addNameRange     '0.0.4',
+134 silly addNameRange     '0.0.5',
+134 silly addNameRange     '0.0.6',
+134 silly addNameRange     '0.0.7',
+134 silly addNameRange     '1.0.0',
+134 silly addNameRange     '1.0.1',
+134 silly addNameRange     '1.0.2' ] ]
+135 silly addNamed ref-struct@1.0.2
+136 verbose addNamed "1.0.2" is a plain semver version for ref-struct
+137 silly mapToRegistry name ref-struct
+138 silly mapToRegistry using default registry
+139 silly mapToRegistry registry https://registry.npmjs.org/
+140 silly mapToRegistry data Result {
+140 silly mapToRegistry   raw: 'ref-struct',
+140 silly mapToRegistry   scope: null,
+140 silly mapToRegistry   name: 'ref-struct',
+140 silly mapToRegistry   rawSpec: '',
+140 silly mapToRegistry   spec: 'latest',
+140 silly mapToRegistry   type: 'tag' }
+141 silly mapToRegistry uri https://registry.npmjs.org/ref-struct
+142 verbose addRemoteTarball https://registry.npmjs.org/ref-struct/-/ref-struct-1.0.2.tgz not in flight; adding
+143 verbose addRemoteTarball [ 'https://registry.npmjs.org/ref-struct/-/ref-struct-1.0.2.tgz',
+143 verbose addRemoteTarball   '6e37cafa2db5f5f2ddaf5ae8bafced3e246cbc90' ]
+144 info retry fetch attempt 1 at 14:05:33
+145 info attempt registry request try #1 at 14:05:33
+146 http fetch GET https://registry.npmjs.org/ref-struct/-/ref-struct-1.0.2.tgz
+147 http fetch 200 https://registry.npmjs.org/ref-struct/-/ref-struct-1.0.2.tgz
+148 silly fetchAndShaCheck shasum 6e37cafa2db5f5f2ddaf5ae8bafced3e246cbc90
+149 verbose addTmpTarball /var/folders/m9/j2w1lpcj38dcknq58_11mv9h0000gn/T/npm-4058-8b1a5861/registry.npmjs.org/ref-struct/-/ref-struct-1.0.2.tgz not in flight; adding
+150 verbose addTmpTarball already have metadata; skipping unpack for ref-struct@1.0.2
+151 verbose correctMkdir /Users/ivanlee/.npm correctMkdir not in flight; initializing
+152 silly cache afterAdd ref-struct@1.0.2
+153 verbose afterAdd /Users/ivanlee/.npm/ref-struct/1.0.2/package/package.json not in flight; writing
+154 verbose correctMkdir /Users/ivanlee/.npm correctMkdir not in flight; initializing
+155 verbose afterAdd /Users/ivanlee/.npm/ref-struct/1.0.2/package/package.json written
+156 http 200 https://registry.npmjs.org/assert
+157 verbose headers { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+157 verbose headers   etag: '"1CIFRP5UBRB4MCRM3AFSASFN5"',
+157 verbose headers   'content-type': 'application/json',
+157 verbose headers   'content-encoding': 'gzip',
+157 verbose headers   'cache-control': 'max-age=300',
+157 verbose headers   'content-length': '3677',
+157 verbose headers   'accept-ranges': 'bytes',
+157 verbose headers   date: 'Fri, 17 Jun 2016 06:05:34 GMT',
+157 verbose headers   via: '1.1 varnish',
+157 verbose headers   age: '176',
+157 verbose headers   connection: 'keep-alive',
+157 verbose headers   'x-served-by': 'cache-lcy1128-LCY',
+157 verbose headers   'x-cache': 'HIT',
+157 verbose headers   'x-cache-hits': '3',
+157 verbose headers   'x-timer': 'S1466143534.117819,VS0,VE0',
+157 verbose headers   vary: 'Accept-Encoding' }
+158 silly get cb [ 200,
+158 silly get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+158 silly get     etag: '"1CIFRP5UBRB4MCRM3AFSASFN5"',
+158 silly get     'content-type': 'application/json',
+158 silly get     'content-encoding': 'gzip',
+158 silly get     'cache-control': 'max-age=300',
+158 silly get     'content-length': '3677',
+158 silly get     'accept-ranges': 'bytes',
+158 silly get     date: 'Fri, 17 Jun 2016 06:05:34 GMT',
+158 silly get     via: '1.1 varnish',
+158 silly get     age: '176',
+158 silly get     connection: 'keep-alive',
+158 silly get     'x-served-by': 'cache-lcy1128-LCY',
+158 silly get     'x-cache': 'HIT',
+158 silly get     'x-cache-hits': '3',
+158 silly get     'x-timer': 'S1466143534.117819,VS0,VE0',
+158 silly get     vary: 'Accept-Encoding' } ]
+159 verbose get saving assert to /Users/ivanlee/.npm/registry.npmjs.org/assert/.cache.json
+160 verbose correctMkdir /Users/ivanlee/.npm correctMkdir not in flight; initializing
+161 silly resolveWithNewModule assert@1.4.1 checking installable status
+162 silly cache add args [ 'assert@>= 0.4.9', null ]
+163 verbose cache add spec assert@>= 0.4.9
+164 silly cache add parsed spec Result {
+164 silly cache add   raw: 'assert@>= 0.4.9',
+164 silly cache add   scope: null,
+164 silly cache add   name: 'assert',
+164 silly cache add   rawSpec: '>= 0.4.9',
+164 silly cache add   spec: '>=0.4.9',
+164 silly cache add   type: 'range' }
+165 silly addNamed assert@>=0.4.9
+166 verbose addNamed ">=0.4.9" is a valid semver range for assert
+167 silly addNameRange { name: 'assert', range: '>=0.4.9', hasData: false }
+168 silly mapToRegistry name assert
+169 silly mapToRegistry using default registry
+170 silly mapToRegistry registry https://registry.npmjs.org/
+171 silly mapToRegistry data Result {
+171 silly mapToRegistry   raw: 'assert',
+171 silly mapToRegistry   scope: null,
+171 silly mapToRegistry   name: 'assert',
+171 silly mapToRegistry   rawSpec: '',
+171 silly mapToRegistry   spec: 'latest',
+171 silly mapToRegistry   type: 'tag' }
+172 silly mapToRegistry uri https://registry.npmjs.org/assert
+173 verbose addNameRange registry:https://registry.npmjs.org/assert not in flight; fetching
+174 verbose get https://registry.npmjs.org/assert not expired, no request
+175 silly addNameRange number 2 { name: 'assert', range: '>=0.4.9', hasData: true }
+176 silly addNameRange versions [ 'assert',
+176 silly addNameRange   [ '0.4.9',
+176 silly addNameRange     '1.0.0',
+176 silly addNameRange     '1.0.1',
+176 silly addNameRange     '1.0.2',
+176 silly addNameRange     '1.0.3',
+176 silly addNameRange     '1.1.0',
+176 silly addNameRange     '1.1.1',
+176 silly addNameRange     '1.1.2',
+176 silly addNameRange     '1.2.0',
+176 silly addNameRange     '1.3.0',
+176 silly addNameRange     '1.4.0',
+176 silly addNameRange     '1.4.1' ] ]
+177 silly addNamed assert@1.4.1
+178 verbose addNamed "1.4.1" is a plain semver version for assert
+179 silly mapToRegistry name assert
+180 silly mapToRegistry using default registry
+181 silly mapToRegistry registry https://registry.npmjs.org/
+182 silly mapToRegistry data Result {
+182 silly mapToRegistry   raw: 'assert',
+182 silly mapToRegistry   scope: null,
+182 silly mapToRegistry   name: 'assert',
+182 silly mapToRegistry   rawSpec: '',
+182 silly mapToRegistry   spec: 'latest',
+182 silly mapToRegistry   type: 'tag' }
+183 silly mapToRegistry uri https://registry.npmjs.org/assert
+184 verbose addRemoteTarball https://registry.npmjs.org/assert/-/assert-1.4.1.tgz not in flight; adding
+185 verbose addRemoteTarball [ 'https://registry.npmjs.org/assert/-/assert-1.4.1.tgz',
+185 verbose addRemoteTarball   '99912d591836b5a6f5b345c0f07eefc08fc65d91' ]
+186 info retry fetch attempt 1 at 14:05:34
+187 info attempt registry request try #1 at 14:05:34
+188 http fetch GET https://registry.npmjs.org/assert/-/assert-1.4.1.tgz
+189 http 200 https://registry.npmjs.org/ref
+190 verbose headers { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+190 verbose headers   etag: '"2U5YWC5QYD6MZRKVTOQU9S2OX"',
+190 verbose headers   'content-type': 'application/json',
+190 verbose headers   'content-encoding': 'gzip',
+190 verbose headers   'cache-control': 'max-age=300',
+190 verbose headers   'content-length': '8420',
+190 verbose headers   'accept-ranges': 'bytes',
+190 verbose headers   date: 'Fri, 17 Jun 2016 06:05:34 GMT',
+190 verbose headers   via: '1.1 varnish',
+190 verbose headers   age: '0',
+190 verbose headers   connection: 'keep-alive',
+190 verbose headers   'x-served-by': 'cache-lcy1131-LCY',
+190 verbose headers   'x-cache': 'MISS',
+190 verbose headers   'x-cache-hits': '0',
+190 verbose headers   'x-timer': 'S1466143533.954363,VS0,VE108',
+190 verbose headers   vary: 'Accept-Encoding' }
+191 silly get cb [ 200,
+191 silly get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+191 silly get     etag: '"2U5YWC5QYD6MZRKVTOQU9S2OX"',
+191 silly get     'content-type': 'application/json',
+191 silly get     'content-encoding': 'gzip',
+191 silly get     'cache-control': 'max-age=300',
+191 silly get     'content-length': '8420',
+191 silly get     'accept-ranges': 'bytes',
+191 silly get     date: 'Fri, 17 Jun 2016 06:05:34 GMT',
+191 silly get     via: '1.1 varnish',
+191 silly get     age: '0',
+191 silly get     connection: 'keep-alive',
+191 silly get     'x-served-by': 'cache-lcy1131-LCY',
+191 silly get     'x-cache': 'MISS',
+191 silly get     'x-cache-hits': '0',
+191 silly get     'x-timer': 'S1466143533.954363,VS0,VE108',
+191 silly get     vary: 'Accept-Encoding' } ]
+192 verbose get saving ref to /Users/ivanlee/.npm/registry.npmjs.org/ref/.cache.json
+193 verbose correctMkdir /Users/ivanlee/.npm correctMkdir not in flight; initializing
+194 silly resolveWithNewModule ref@1.3.2 checking installable status
+195 silly cache add args [ 'ref@>= 0.1.3', null ]
+196 verbose cache add spec ref@>= 0.1.3
+197 silly cache add parsed spec Result {
+197 silly cache add   raw: 'ref@>= 0.1.3',
+197 silly cache add   scope: null,
+197 silly cache add   name: 'ref',
+197 silly cache add   rawSpec: '>= 0.1.3',
+197 silly cache add   spec: '>=0.1.3',
+197 silly cache add   type: 'range' }
+198 silly addNamed ref@>=0.1.3
+199 verbose addNamed ">=0.1.3" is a valid semver range for ref
+200 silly addNameRange { name: 'ref', range: '>=0.1.3', hasData: false }
+201 silly mapToRegistry name ref
+202 silly mapToRegistry using default registry
+203 silly mapToRegistry registry https://registry.npmjs.org/
+204 silly mapToRegistry data Result {
+204 silly mapToRegistry   raw: 'ref',
+204 silly mapToRegistry   scope: null,
+204 silly mapToRegistry   name: 'ref',
+204 silly mapToRegistry   rawSpec: '',
+204 silly mapToRegistry   spec: 'latest',
+204 silly mapToRegistry   type: 'tag' }
+205 silly mapToRegistry uri https://registry.npmjs.org/ref
+206 verbose addNameRange registry:https://registry.npmjs.org/ref not in flight; fetching
+207 verbose get https://registry.npmjs.org/ref not expired, no request
+208 silly addNameRange number 2 { name: 'ref', range: '>=0.1.3', hasData: true }
+209 silly addNameRange versions [ 'ref',
+209 silly addNameRange   [ '0.0.1',
+209 silly addNameRange     '0.0.2',
+209 silly addNameRange     '0.0.3',
+209 silly addNameRange     '0.0.4',
+209 silly addNameRange     '0.0.5',
+209 silly addNameRange     '0.0.6',
+209 silly addNameRange     '0.0.7',
+209 silly addNameRange     '0.0.8',
+209 silly addNameRange     '0.0.9',
+209 silly addNameRange     '0.0.10',
+209 silly addNameRange     '0.0.11',
+209 silly addNameRange     '0.0.12',
+209 silly addNameRange     '0.0.13',
+209 silly addNameRange     '0.0.14',
+209 silly addNameRange     '0.0.15',
+209 silly addNameRange     '0.0.16',
+209 silly addNameRange     '0.0.17',
+209 silly addNameRange     '0.0.18',
+209 silly addNameRange     '0.0.19',
+209 silly addNameRange     '0.0.20',
+209 silly addNameRange     '0.1.0',
+209 silly addNameRange     '0.1.1',
+209 silly addNameRange     '0.1.2',
+209 silly addNameRange     '0.1.3',
+209 silly addNameRange     '0.2.0',
+209 silly addNameRange     '0.2.1',
+209 silly addNameRange     '0.2.2',
+209 silly addNameRange     '0.2.3',
+209 silly addNameRange     '0.3.0',
+209 silly addNameRange     '0.3.1',
+209 silly addNameRange     '0.3.2',
+209 silly addNameRange     '0.3.3',
+209 silly addNameRange     '0.3.4',
+209 silly addNameRange     '0.3.5',
+209 silly addNameRange     '1.0.0',
+209 silly addNameRange     '1.0.1',
+209 silly addNameRange     '1.0.2',
+209 silly addNameRange     '1.1.0',
+209 silly addNameRange     '1.1.1',
+209 silly addNameRange     '1.1.2',
+209 silly addNameRange     '1.1.3',
+209 silly addNameRange     '1.2.0',
+209 silly addNameRange     '1.3.0',
+209 silly addNameRange     '1.3.1',
+209 silly addNameRange     '1.3.2' ] ]
+210 silly addNamed ref@1.3.2
+211 verbose addNamed "1.3.2" is a plain semver version for ref
+212 silly mapToRegistry name ref
+213 silly mapToRegistry using default registry
+214 silly mapToRegistry registry https://registry.npmjs.org/
+215 silly mapToRegistry data Result {
+215 silly mapToRegistry   raw: 'ref',
+215 silly mapToRegistry   scope: null,
+215 silly mapToRegistry   name: 'ref',
+215 silly mapToRegistry   rawSpec: '',
+215 silly mapToRegistry   spec: 'latest',
+215 silly mapToRegistry   type: 'tag' }
+216 silly mapToRegistry uri https://registry.npmjs.org/ref
+217 verbose addRemoteTarball https://registry.npmjs.org/ref/-/ref-1.3.2.tgz not in flight; adding
+218 verbose addRemoteTarball [ 'https://registry.npmjs.org/ref/-/ref-1.3.2.tgz',
+218 verbose addRemoteTarball   'f500f22be73fdcd632668e7795309cf088fd06d6' ]
+219 info retry fetch attempt 1 at 14:05:34
+220 info attempt registry request try #1 at 14:05:34
+221 http fetch GET https://registry.npmjs.org/ref/-/ref-1.3.2.tgz
+222 http fetch 200 https://registry.npmjs.org/assert/-/assert-1.4.1.tgz
+223 http fetch 200 https://registry.npmjs.org/ref/-/ref-1.3.2.tgz
+224 silly fetchAndShaCheck shasum 99912d591836b5a6f5b345c0f07eefc08fc65d91
+225 verbose addTmpTarball /var/folders/m9/j2w1lpcj38dcknq58_11mv9h0000gn/T/npm-4058-8b1a5861/registry.npmjs.org/assert/-/assert-1.4.1.tgz not in flight; adding
+226 verbose addTmpTarball already have metadata; skipping unpack for assert@1.4.1
+227 verbose correctMkdir /Users/ivanlee/.npm correctMkdir not in flight; initializing
+228 silly cache afterAdd assert@1.4.1
+229 verbose afterAdd /Users/ivanlee/.npm/assert/1.4.1/package/package.json not in flight; writing
+230 verbose correctMkdir /Users/ivanlee/.npm correctMkdir not in flight; initializing
+231 http 200 https://registry.npmjs.org/async
+232 verbose headers { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+232 verbose headers   etag: '"DKETP5R79JTFLXYSLG80R62QU"',
+232 verbose headers   'content-type': 'application/json',
+232 verbose headers   'content-encoding': 'gzip',
+232 verbose headers   'cache-control': 'max-age=300',
+232 verbose headers   'content-length': '36311',
+232 verbose headers   'accept-ranges': 'bytes',
+232 verbose headers   date: 'Fri, 17 Jun 2016 06:05:34 GMT',
+232 verbose headers   via: '1.1 varnish',
+232 verbose headers   age: '84',
+232 verbose headers   connection: 'keep-alive',
+232 verbose headers   'x-served-by': 'cache-lcy1123-LCY',
+232 verbose headers   'x-cache': 'HIT',
+232 verbose headers   'x-cache-hits': '8',
+232 verbose headers   'x-timer': 'S1466143534.116840,VS0,VE0',
+232 verbose headers   vary: 'Accept-Encoding' }
+233 silly get cb [ 200,
+233 silly get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+233 silly get     etag: '"DKETP5R79JTFLXYSLG80R62QU"',
+233 silly get     'content-type': 'application/json',
+233 silly get     'content-encoding': 'gzip',
+233 silly get     'cache-control': 'max-age=300',
+233 silly get     'content-length': '36311',
+233 silly get     'accept-ranges': 'bytes',
+233 silly get     date: 'Fri, 17 Jun 2016 06:05:34 GMT',
+233 silly get     via: '1.1 varnish',
+233 silly get     age: '84',
+233 silly get     connection: 'keep-alive',
+233 silly get     'x-served-by': 'cache-lcy1123-LCY',
+233 silly get     'x-cache': 'HIT',
+233 silly get     'x-cache-hits': '8',
+233 silly get     'x-timer': 'S1466143534.116840,VS0,VE0',
+233 silly get     vary: 'Accept-Encoding' } ]
+234 verbose get saving async to /Users/ivanlee/.npm/registry.npmjs.org/async/.cache.json
+235 verbose correctMkdir /Users/ivanlee/.npm correctMkdir not in flight; initializing
+236 verbose afterAdd /Users/ivanlee/.npm/assert/1.4.1/package/package.json written
+237 silly resolveWithNewModule async@1.5.2 checking installable status
+238 silly cache add args [ 'async@>= 0.1.22', null ]
+239 verbose cache add spec async@>= 0.1.22
+240 silly cache add parsed spec Result {
+240 silly cache add   raw: 'async@>= 0.1.22',
+240 silly cache add   scope: null,
+240 silly cache add   name: 'async',
+240 silly cache add   rawSpec: '>= 0.1.22',
+240 silly cache add   spec: '>=0.1.22',
+240 silly cache add   type: 'range' }
+241 silly addNamed async@>=0.1.22
+242 verbose addNamed ">=0.1.22" is a valid semver range for async
+243 silly addNameRange { name: 'async', range: '>=0.1.22', hasData: false }
+244 silly mapToRegistry name async
+245 silly mapToRegistry using default registry
+246 silly mapToRegistry registry https://registry.npmjs.org/
+247 silly mapToRegistry data Result {
+247 silly mapToRegistry   raw: 'async',
+247 silly mapToRegistry   scope: null,
+247 silly mapToRegistry   name: 'async',
+247 silly mapToRegistry   rawSpec: '',
+247 silly mapToRegistry   spec: 'latest',
+247 silly mapToRegistry   type: 'tag' }
+248 silly mapToRegistry uri https://registry.npmjs.org/async
+249 verbose addNameRange registry:https://registry.npmjs.org/async not in flight; fetching
+250 verbose get https://registry.npmjs.org/async not expired, no request
+251 silly addNameRange number 2 { name: 'async', range: '>=0.1.22', hasData: true }
+252 silly addNameRange versions [ 'async',
+252 silly addNameRange   [ '0.1.0',
+252 silly addNameRange     '0.1.1',
+252 silly addNameRange     '0.1.2',
+252 silly addNameRange     '0.1.3',
+252 silly addNameRange     '0.1.4',
+252 silly addNameRange     '0.1.5',
+252 silly addNameRange     '0.1.6',
+252 silly addNameRange     '0.1.7',
+252 silly addNameRange     '0.1.8',
+252 silly addNameRange     '0.1.9',
+252 silly addNameRange     '0.1.10',
+252 silly addNameRange     '0.1.11',
+252 silly addNameRange     '0.1.12',
+252 silly addNameRange     '0.1.13',
+252 silly addNameRange     '0.1.14',
+252 silly addNameRange     '0.1.15',
+252 silly addNameRange     '0.1.16',
+252 silly addNameRange     '0.1.17',
+252 silly addNameRange     '0.1.18',
+252 silly addNameRange     '0.1.19',
+252 silly addNameRange     '0.1.20',
+252 silly addNameRange     '0.1.21',
+252 silly addNameRange     '0.1.22',
+252 silly addNameRange     '0.2.0',
+252 silly addNameRange     '0.2.1',
+252 silly addNameRange     '0.2.2',
+252 silly addNameRange     '0.2.3',
+252 silly addNameRange     '0.2.4',
+252 silly addNameRange     '0.2.5',
+252 silly addNameRange     '0.2.6',
+252 silly addNameRange     '0.2.7',
+252 silly addNameRange     '0.2.8',
+252 silly addNameRange     '0.2.9',
+252 silly addNameRange     '0.2.10',
+252 silly addNameRange     '0.3.0',
+252 silly addNameRange     '0.4.0',
+252 silly addNameRange     '0.4.1',
+252 silly addNameRange     '0.5.0',
+252 silly addNameRange     '0.6.0',
+252 silly addNameRange     '0.6.1',
+252 silly addNameRange     '0.6.2',
+252 silly addNameRange     '0.7.0',
+252 silly addNameRange     '0.8.0',
+252 silly addNameRange     '0.9.0',
+252 silly addNameRange     '0.9.2',
+252 silly addNameRange     '1.0.0',
+252 silly addNameRange     '1.1.0',
+252 silly addNameRange     '1.2.0',
+252 silly addNameRange     '1.1.1',
+252 silly addNameRange     '1.2.1',
+252 silly addNameRange     '1.3.0',
+252 silly addNameRange     '1.4.0',
+252 silly addNameRange     '1.4.1',
+252 silly addNameRange     '1.4.2',
+252 silly addNameRange     '1.5.0',
+252 silly addNameRange     '1.5.1',
+252 silly addNameRange     '1.5.2',
+252 silly addNameRange     '2.0.0-alpha.0',
+252 silly addNameRange     '2.0.0-rc.1',
+252 silly addNameRange     '2.0.0-rc.2',
+252 silly addNameRange     '2.0.0-rc.3',
+252 silly addNameRange     '2.0.0-rc.4',
+252 silly addNameRange     '2.0.0-rc.5',
+252 silly addNameRange     '2.0.0-rc.6' ] ]
+253 silly addNamed async@1.5.2
+254 verbose addNamed "1.5.2" is a plain semver version for async
+255 silly cache afterAdd async@1.5.2
+256 verbose afterAdd /Users/ivanlee/.npm/async/1.5.2/package/package.json not in flight; writing
+257 verbose correctMkdir /Users/ivanlee/.npm correctMkdir not in flight; initializing
+258 verbose afterAdd /Users/ivanlee/.npm/async/1.5.2/package/package.json written
+259 silly fetchAndShaCheck shasum f500f22be73fdcd632668e7795309cf088fd06d6
+260 verbose addTmpTarball /var/folders/m9/j2w1lpcj38dcknq58_11mv9h0000gn/T/npm-4058-8b1a5861/registry.npmjs.org/ref/-/ref-1.3.2.tgz not in flight; adding
+261 verbose addTmpTarball already have metadata; skipping unpack for ref@1.3.2
+262 verbose correctMkdir /Users/ivanlee/.npm correctMkdir not in flight; initializing
+263 silly cache afterAdd ref@1.3.2
+264 verbose afterAdd /Users/ivanlee/.npm/ref/1.3.2/package/package.json not in flight; writing
+265 verbose correctMkdir /Users/ivanlee/.npm correctMkdir not in flight; initializing
+266 verbose afterAdd /Users/ivanlee/.npm/ref/1.3.2/package/package.json written
+267 silly fetchNamedPackageData util
+268 silly mapToRegistry name util
+269 silly mapToRegistry using default registry
+270 silly mapToRegistry registry https://registry.npmjs.org/
+271 silly mapToRegistry data Result {
+271 silly mapToRegistry   raw: 'util',
+271 silly mapToRegistry   scope: null,
+271 silly mapToRegistry   name: 'util',
+271 silly mapToRegistry   rawSpec: '',
+271 silly mapToRegistry   spec: 'latest',
+271 silly mapToRegistry   type: 'tag' }
+272 silly mapToRegistry uri https://registry.npmjs.org/util
+273 verbose request uri https://registry.npmjs.org/util
+274 verbose request no auth needed
+275 info attempt registry request try #1 at 14:05:38
+276 verbose etag "CCYSQGRWDSJ4T4EMX2L44O00T"
+277 http request GET https://registry.npmjs.org/util
+278 http 304 https://registry.npmjs.org/util
+279 verbose headers { date: 'Fri, 17 Jun 2016 06:05:39 GMT',
+279 verbose headers   via: '1.1 varnish',
+279 verbose headers   'cache-control': 'max-age=300',
+279 verbose headers   etag: '"CCYSQGRWDSJ4T4EMX2L44O00T"',
+279 verbose headers   age: '143',
+279 verbose headers   connection: 'keep-alive',
+279 verbose headers   'x-served-by': 'cache-lcy1131-LCY',
+279 verbose headers   'x-cache': 'HIT',
+279 verbose headers   'x-cache-hits': '3',
+279 verbose headers   'x-timer': 'S1466143539.120300,VS0,VE0',
+279 verbose headers   vary: 'Accept-Encoding' }
+280 silly get cb [ 304,
+280 silly get   { date: 'Fri, 17 Jun 2016 06:05:39 GMT',
+280 silly get     via: '1.1 varnish',
+280 silly get     'cache-control': 'max-age=300',
+280 silly get     etag: '"CCYSQGRWDSJ4T4EMX2L44O00T"',
+280 silly get     age: '143',
+280 silly get     connection: 'keep-alive',
+280 silly get     'x-served-by': 'cache-lcy1131-LCY',
+280 silly get     'x-cache': 'HIT',
+280 silly get     'x-cache-hits': '3',
+280 silly get     'x-timer': 'S1466143539.120300,VS0,VE0',
+280 silly get     vary: 'Accept-Encoding' } ]
+281 verbose etag https://registry.npmjs.org/util from cache
+282 verbose get saving util to /Users/ivanlee/.npm/registry.npmjs.org/util/.cache.json
+283 verbose correctMkdir /Users/ivanlee/.npm correctMkdir not in flight; initializing
+284 silly resolveWithNewModule util@0.10.3 checking installable status
+285 silly cache add args [ 'util@0.10.3', null ]
+286 verbose cache add spec util@0.10.3
+287 silly cache add parsed spec Result {
+287 silly cache add   raw: 'util@0.10.3',
+287 silly cache add   scope: null,
+287 silly cache add   name: 'util',
+287 silly cache add   rawSpec: '0.10.3',
+287 silly cache add   spec: '0.10.3',
+287 silly cache add   type: 'version' }
+288 silly addNamed util@0.10.3
+289 verbose addNamed "0.10.3" is a plain semver version for util
+290 silly mapToRegistry name util
+291 silly mapToRegistry using default registry
+292 silly mapToRegistry registry https://registry.npmjs.org/
+293 silly mapToRegistry data Result {
+293 silly mapToRegistry   raw: 'util',
+293 silly mapToRegistry   scope: null,
+293 silly mapToRegistry   name: 'util',
+293 silly mapToRegistry   rawSpec: '',
+293 silly mapToRegistry   spec: 'latest',
+293 silly mapToRegistry   type: 'tag' }
+294 silly mapToRegistry uri https://registry.npmjs.org/util
+295 verbose addNameVersion registry:https://registry.npmjs.org/util not in flight; fetching
+296 verbose get https://registry.npmjs.org/util not expired, no request
+297 silly cache afterAdd util@0.10.3
+298 verbose afterAdd /Users/ivanlee/.npm/util/0.10.3/package/package.json not in flight; writing
+299 verbose correctMkdir /Users/ivanlee/.npm correctMkdir not in flight; initializing
+300 verbose afterAdd /Users/ivanlee/.npm/util/0.10.3/package/package.json written
+301 silly fetchNamedPackageData inherits
+302 silly mapToRegistry name inherits
+303 silly mapToRegistry using default registry
+304 silly mapToRegistry registry https://registry.npmjs.org/
+305 silly mapToRegistry data Result {
+305 silly mapToRegistry   raw: 'inherits',
+305 silly mapToRegistry   scope: null,
+305 silly mapToRegistry   name: 'inherits',
+305 silly mapToRegistry   rawSpec: '',
+305 silly mapToRegistry   spec: 'latest',
+305 silly mapToRegistry   type: 'tag' }
+306 silly mapToRegistry uri https://registry.npmjs.org/inherits
+307 verbose request uri https://registry.npmjs.org/inherits
+308 verbose request no auth needed
+309 info attempt registry request try #1 at 14:05:42
+310 verbose etag "9C23BNETE30UZVYRVML0QUTBX"
+311 http request GET https://registry.npmjs.org/inherits
+312 http 304 https://registry.npmjs.org/inherits
+313 verbose headers { date: 'Fri, 17 Jun 2016 06:05:43 GMT',
+313 verbose headers   via: '1.1 varnish',
+313 verbose headers   'cache-control': 'max-age=300',
+313 verbose headers   etag: '"9C23BNETE30UZVYRVML0QUTBX"',
+313 verbose headers   age: '60',
+313 verbose headers   connection: 'keep-alive',
+313 verbose headers   'x-served-by': 'cache-lcy1132-LCY',
+313 verbose headers   'x-cache': 'HIT',
+313 verbose headers   'x-cache-hits': '6',
+313 verbose headers   'x-timer': 'S1466143543.979082,VS0,VE0',
+313 verbose headers   vary: 'Accept-Encoding' }
+314 silly get cb [ 304,
+314 silly get   { date: 'Fri, 17 Jun 2016 06:05:43 GMT',
+314 silly get     via: '1.1 varnish',
+314 silly get     'cache-control': 'max-age=300',
+314 silly get     etag: '"9C23BNETE30UZVYRVML0QUTBX"',
+314 silly get     age: '60',
+314 silly get     connection: 'keep-alive',
+314 silly get     'x-served-by': 'cache-lcy1132-LCY',
+314 silly get     'x-cache': 'HIT',
+314 silly get     'x-cache-hits': '6',
+314 silly get     'x-timer': 'S1466143543.979082,VS0,VE0',
+314 silly get     vary: 'Accept-Encoding' } ]
+315 verbose etag https://registry.npmjs.org/inherits from cache
+316 verbose get saving inherits to /Users/ivanlee/.npm/registry.npmjs.org/inherits/.cache.json
+317 verbose correctMkdir /Users/ivanlee/.npm correctMkdir not in flight; initializing
+318 silly resolveWithNewModule inherits@2.0.1 checking installable status
+319 silly cache add args [ 'inherits@2.0.1', null ]
+320 verbose cache add spec inherits@2.0.1
+321 silly cache add parsed spec Result {
+321 silly cache add   raw: 'inherits@2.0.1',
+321 silly cache add   scope: null,
+321 silly cache add   name: 'inherits',
+321 silly cache add   rawSpec: '2.0.1',
+321 silly cache add   spec: '2.0.1',
+321 silly cache add   type: 'version' }
+322 silly addNamed inherits@2.0.1
+323 verbose addNamed "2.0.1" is a plain semver version for inherits
+324 silly mapToRegistry name inherits
+325 silly mapToRegistry using default registry
+326 silly mapToRegistry registry https://registry.npmjs.org/
+327 silly mapToRegistry data Result {
+327 silly mapToRegistry   raw: 'inherits',
+327 silly mapToRegistry   scope: null,
+327 silly mapToRegistry   name: 'inherits',
+327 silly mapToRegistry   rawSpec: '',
+327 silly mapToRegistry   spec: 'latest',
+327 silly mapToRegistry   type: 'tag' }
+328 silly mapToRegistry uri https://registry.npmjs.org/inherits
+329 verbose addNameVersion registry:https://registry.npmjs.org/inherits not in flight; fetching
+330 verbose get https://registry.npmjs.org/inherits not expired, no request
+331 silly cache afterAdd inherits@2.0.1
+332 verbose afterAdd /Users/ivanlee/.npm/inherits/2.0.1/package/package.json not in flight; writing
+333 verbose correctMkdir /Users/ivanlee/.npm correctMkdir not in flight; initializing
+334 verbose afterAdd /Users/ivanlee/.npm/inherits/2.0.1/package/package.json written
+335 silly fetchNamedPackageData bindings
+336 silly mapToRegistry name bindings
+337 silly mapToRegistry using default registry
+338 silly mapToRegistry registry https://registry.npmjs.org/
+339 silly mapToRegistry data Result {
+339 silly mapToRegistry   raw: 'bindings',
+339 silly mapToRegistry   scope: null,
+339 silly mapToRegistry   name: 'bindings',
+339 silly mapToRegistry   rawSpec: '',
+339 silly mapToRegistry   spec: 'latest',
+339 silly mapToRegistry   type: 'tag' }
+340 silly mapToRegistry uri https://registry.npmjs.org/bindings
+341 silly fetchNamedPackageData debug
+342 silly mapToRegistry name debug
+343 silly mapToRegistry using default registry
+344 silly mapToRegistry registry https://registry.npmjs.org/
+345 silly mapToRegistry data Result {
+345 silly mapToRegistry   raw: 'debug',
+345 silly mapToRegistry   scope: null,
+345 silly mapToRegistry   name: 'debug',
+345 silly mapToRegistry   rawSpec: '',
+345 silly mapToRegistry   spec: 'latest',
+345 silly mapToRegistry   type: 'tag' }
+346 silly mapToRegistry uri https://registry.npmjs.org/debug
+347 silly fetchNamedPackageData nan
+348 silly mapToRegistry name nan
+349 silly mapToRegistry using default registry
+350 silly mapToRegistry registry https://registry.npmjs.org/
+351 silly mapToRegistry data Result {
+351 silly mapToRegistry   raw: 'nan',
+351 silly mapToRegistry   scope: null,
+351 silly mapToRegistry   name: 'nan',
+351 silly mapToRegistry   rawSpec: '',
+351 silly mapToRegistry   spec: 'latest',
+351 silly mapToRegistry   type: 'tag' }
+352 silly mapToRegistry uri https://registry.npmjs.org/nan
+353 verbose request uri https://registry.npmjs.org/bindings
+354 verbose request no auth needed
+355 info attempt registry request try #1 at 14:05:52
+356 http request GET https://registry.npmjs.org/bindings
+357 verbose request uri https://registry.npmjs.org/debug
+358 verbose request no auth needed
+359 info attempt registry request try #1 at 14:05:52
+360 verbose etag "9K1MWGO25MI6JV4O209795NK5"
+361 http request GET https://registry.npmjs.org/debug
+362 verbose request uri https://registry.npmjs.org/nan
+363 verbose request no auth needed
+364 info attempt registry request try #1 at 14:05:52
+365 verbose etag "12RFHNMU7CS3WJ1892HQLM0NB"
+366 http request GET https://registry.npmjs.org/nan
+367 http 304 https://registry.npmjs.org/nan
+368 verbose headers { date: 'Fri, 17 Jun 2016 06:06:13 GMT',
+368 verbose headers   via: '1.1 varnish',
+368 verbose headers   'cache-control': 'max-age=300',
+368 verbose headers   etag: '"12RFHNMU7CS3WJ1892HQLM0NB"',
+368 verbose headers   age: '140',
+368 verbose headers   connection: 'keep-alive',
+368 verbose headers   'x-served-by': 'cache-lcy1131-LCY',
+368 verbose headers   'x-cache': 'HIT',
+368 verbose headers   'x-cache-hits': '5',
+368 verbose headers   'x-timer': 'S1466143573.149360,VS0,VE0',
+368 verbose headers   vary: 'Accept-Encoding' }
+369 silly get cb [ 304,
+369 silly get   { date: 'Fri, 17 Jun 2016 06:06:13 GMT',
+369 silly get     via: '1.1 varnish',
+369 silly get     'cache-control': 'max-age=300',
+369 silly get     etag: '"12RFHNMU7CS3WJ1892HQLM0NB"',
+369 silly get     age: '140',
+369 silly get     connection: 'keep-alive',
+369 silly get     'x-served-by': 'cache-lcy1131-LCY',
+369 silly get     'x-cache': 'HIT',
+369 silly get     'x-cache-hits': '5',
+369 silly get     'x-timer': 'S1466143573.149360,VS0,VE0',
+369 silly get     vary: 'Accept-Encoding' } ]
+370 verbose etag https://registry.npmjs.org/nan from cache
+371 verbose get saving nan to /Users/ivanlee/.npm/registry.npmjs.org/nan/.cache.json
+372 verbose correctMkdir /Users/ivanlee/.npm correctMkdir not in flight; initializing
+373 silly resolveWithNewModule nan@2.3.5 checking installable status
+374 silly cache add args [ 'nan@2', null ]
+375 verbose cache add spec nan@2
+376 silly cache add parsed spec Result {
+376 silly cache add   raw: 'nan@2',
+376 silly cache add   scope: null,
+376 silly cache add   name: 'nan',
+376 silly cache add   rawSpec: '2',
+376 silly cache add   spec: '>=2.0.0 <3.0.0',
+376 silly cache add   type: 'range' }
+377 silly addNamed nan@>=2.0.0 <3.0.0
+378 verbose addNamed ">=2.0.0 <3.0.0" is a valid semver range for nan
+379 silly addNameRange { name: 'nan', range: '>=2.0.0 <3.0.0', hasData: false }
+380 silly mapToRegistry name nan
+381 silly mapToRegistry using default registry
+382 silly mapToRegistry registry https://registry.npmjs.org/
+383 silly mapToRegistry data Result {
+383 silly mapToRegistry   raw: 'nan',
+383 silly mapToRegistry   scope: null,
+383 silly mapToRegistry   name: 'nan',
+383 silly mapToRegistry   rawSpec: '',
+383 silly mapToRegistry   spec: 'latest',
+383 silly mapToRegistry   type: 'tag' }
+384 silly mapToRegistry uri https://registry.npmjs.org/nan
+385 verbose addNameRange registry:https://registry.npmjs.org/nan not in flight; fetching
+386 verbose get https://registry.npmjs.org/nan not expired, no request
+387 silly addNameRange number 2 { name: 'nan', range: '>=2.0.0 <3.0.0', hasData: true }
+388 silly addNameRange versions [ 'nan',
+388 silly addNameRange   [ '0.3.0-wip',
+388 silly addNameRange     '0.3.0-wip2',
+388 silly addNameRange     '0.3.0',
+388 silly addNameRange     '0.3.1',
+388 silly addNameRange     '0.3.2',
+388 silly addNameRange     '0.4.0',
+388 silly addNameRange     '0.4.1',
+388 silly addNameRange     '0.4.2',
+388 silly addNameRange     '0.4.3',
+388 silly addNameRange     '0.4.4',
+388 silly addNameRange     '0.5.0',
+388 silly addNameRange     '0.5.1',
+388 silly addNameRange     '0.5.2',
+388 silly addNameRange     '0.6.0',
+388 silly addNameRange     '0.7.0',
+388 silly addNameRange     '0.7.1',
+388 silly addNameRange     '0.8.0',
+388 silly addNameRange     '1.0.0',
+388 silly addNameRange     '1.1.0',
+388 silly addNameRange     '1.1.1',
+388 silly addNameRange     '1.1.2',
+388 silly addNameRange     '1.2.0',
+388 silly addNameRange     '1.3.0',
+388 silly addNameRange     '1.4.0',
+388 silly addNameRange     '1.4.1',
+388 silly addNameRange     '1.5.0',
+388 silly addNameRange     '1.4.2',
+388 silly addNameRange     '1.4.3',
+388 silly addNameRange     '1.5.1',
+388 silly addNameRange     '1.5.2',
+388 silly addNameRange     '1.6.0',
+388 silly addNameRange     '1.5.3',
+388 silly addNameRange     '1.6.1',
+388 silly addNameRange     '1.6.2',
+388 silly addNameRange     '1.7.0',
+388 silly addNameRange     '1.8.0',
+388 silly addNameRange     '1.8.1',
+388 silly addNameRange     '1.8.2',
+388 silly addNameRange     '1.8.3',
+388 silly addNameRange     '1.8.4',
+388 silly addNameRange     '1.9.0',
+388 silly addNameRange     '2.0.0',
+388 silly addNameRange     '2.0.1',
+388 silly addNameRange     '2.0.2',
+388 silly addNameRange     '2.0.3',
+388 silly addNameRange     '2.0.4',
+388 silly addNameRange     '2.0.5',
+388 silly addNameRange     '2.0.6',
+388 silly addNameRange     '2.0.7',
+388 silly addNameRange     '2.0.8',
+388 silly addNameRange     '2.0.9',
+388 silly addNameRange     '2.1.0',
+388 silly addNameRange     '2.2.0',
+388 silly addNameRange     '2.2.1',
+388 silly addNameRange     '2.3.0',
+388 silly addNameRange     '2.3.1',
+388 silly addNameRange     '2.3.2',
+388 silly addNameRange     '2.3.3',
+388 silly addNameRange     '2.3.4',
+388 silly addNameRange     '2.3.5' ] ]
+389 silly addNamed nan@2.3.5
+390 verbose addNamed "2.3.5" is a plain semver version for nan
+391 silly mapToRegistry name nan
+392 silly mapToRegistry using default registry
+393 silly mapToRegistry registry https://registry.npmjs.org/
+394 silly mapToRegistry data Result {
+394 silly mapToRegistry   raw: 'nan',
+394 silly mapToRegistry   scope: null,
+394 silly mapToRegistry   name: 'nan',
+394 silly mapToRegistry   rawSpec: '',
+394 silly mapToRegistry   spec: 'latest',
+394 silly mapToRegistry   type: 'tag' }
+395 silly mapToRegistry uri https://registry.npmjs.org/nan
+396 verbose addRemoteTarball https://registry.npmjs.org/nan/-/nan-2.3.5.tgz not in flight; adding
+397 verbose addRemoteTarball [ 'https://registry.npmjs.org/nan/-/nan-2.3.5.tgz',
+397 verbose addRemoteTarball   '822a0dc266290ce4cd3a12282ca3e7e364668a08' ]
+398 info retry fetch attempt 1 at 14:06:15
+399 info attempt registry request try #1 at 14:06:15
+400 http fetch GET https://registry.npmjs.org/nan/-/nan-2.3.5.tgz
+401 http fetch 200 https://registry.npmjs.org/nan/-/nan-2.3.5.tgz
+402 http 200 https://registry.npmjs.org/debug
+403 verbose headers { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+403 verbose headers   etag: '"7NGGAG0T2NN0K4JML79ZUZHJ5"',
+403 verbose headers   'content-type': 'application/json',
+403 verbose headers   'content-encoding': 'gzip',
+403 verbose headers   'cache-control': 'max-age=300',
+403 verbose headers   'content-length': '9079',
+403 verbose headers   'accept-ranges': 'bytes',
+403 verbose headers   date: 'Fri, 17 Jun 2016 06:05:56 GMT',
+403 verbose headers   via: '1.1 varnish',
+403 verbose headers   age: '47',
+403 verbose headers   connection: 'keep-alive',
+403 verbose headers   'x-served-by': 'cache-lcy1128-LCY',
+403 verbose headers   'x-cache': 'HIT',
+403 verbose headers   'x-cache-hits': '3',
+403 verbose headers   'x-timer': 'S1466143556.951639,VS0,VE0',
+403 verbose headers   vary: 'Accept-Encoding' }
+404 silly get cb [ 200,
+404 silly get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+404 silly get     etag: '"7NGGAG0T2NN0K4JML79ZUZHJ5"',
+404 silly get     'content-type': 'application/json',
+404 silly get     'content-encoding': 'gzip',
+404 silly get     'cache-control': 'max-age=300',
+404 silly get     'content-length': '9079',
+404 silly get     'accept-ranges': 'bytes',
+404 silly get     date: 'Fri, 17 Jun 2016 06:05:56 GMT',
+404 silly get     via: '1.1 varnish',
+404 silly get     age: '47',
+404 silly get     connection: 'keep-alive',
+404 silly get     'x-served-by': 'cache-lcy1128-LCY',
+404 silly get     'x-cache': 'HIT',
+404 silly get     'x-cache-hits': '3',
+404 silly get     'x-timer': 'S1466143556.951639,VS0,VE0',
+404 silly get     vary: 'Accept-Encoding' } ]
+405 verbose get saving debug to /Users/ivanlee/.npm/registry.npmjs.org/debug/.cache.json
+406 verbose correctMkdir /Users/ivanlee/.npm correctMkdir not in flight; initializing
+407 silly resolveWithNewModule debug@2.2.0 checking installable status
+408 silly cache add args [ 'debug@2', null ]
+409 verbose cache add spec debug@2
+410 silly cache add parsed spec Result {
+410 silly cache add   raw: 'debug@2',
+410 silly cache add   scope: null,
+410 silly cache add   name: 'debug',
+410 silly cache add   rawSpec: '2',
+410 silly cache add   spec: '>=2.0.0 <3.0.0',
+410 silly cache add   type: 'range' }
+411 silly addNamed debug@>=2.0.0 <3.0.0
+412 verbose addNamed ">=2.0.0 <3.0.0" is a valid semver range for debug
+413 silly addNameRange { name: 'debug', range: '>=2.0.0 <3.0.0', hasData: false }
+414 silly mapToRegistry name debug
+415 silly mapToRegistry using default registry
+416 silly mapToRegistry registry https://registry.npmjs.org/
+417 silly mapToRegistry data Result {
+417 silly mapToRegistry   raw: 'debug',
+417 silly mapToRegistry   scope: null,
+417 silly mapToRegistry   name: 'debug',
+417 silly mapToRegistry   rawSpec: '',
+417 silly mapToRegistry   spec: 'latest',
+417 silly mapToRegistry   type: 'tag' }
+418 silly mapToRegistry uri https://registry.npmjs.org/debug
+419 verbose addNameRange registry:https://registry.npmjs.org/debug not in flight; fetching
+420 verbose get https://registry.npmjs.org/debug not expired, no request
+421 silly addNameRange number 2 { name: 'debug', range: '>=2.0.0 <3.0.0', hasData: true }
+422 silly addNameRange versions [ 'debug',
+422 silly addNameRange   [ '0.0.1',
+422 silly addNameRange     '0.1.0',
+422 silly addNameRange     '0.2.0',
+422 silly addNameRange     '0.3.0',
+422 silly addNameRange     '0.4.0',
+422 silly addNameRange     '0.4.1',
+422 silly addNameRange     '0.5.0',
+422 silly addNameRange     '0.6.0',
+422 silly addNameRange     '0.7.0',
+422 silly addNameRange     '0.7.1',
+422 silly addNameRange     '0.7.2',
+422 silly addNameRange     '0.7.3',
+422 silly addNameRange     '0.7.4',
+422 silly addNameRange     '0.8.0',
+422 silly addNameRange     '0.8.1',
+422 silly addNameRange     '1.0.0',
+422 silly addNameRange     '1.0.1',
+422 silly addNameRange     '1.0.2',
+422 silly addNameRange     '1.0.3',
+422 silly addNameRange     '1.0.4',
+422 silly addNameRange     '2.0.0',
+422 silly addNameRange     '2.1.0',
+422 silly addNameRange     '2.1.1',
+422 silly addNameRange     '2.1.2',
+422 silly addNameRange     '2.1.3',
+422 silly addNameRange     '2.2.0' ] ]
+423 silly addNamed debug@2.2.0
+424 verbose addNamed "2.2.0" is a plain semver version for debug
+425 silly cache afterAdd debug@2.2.0
+426 verbose afterAdd /Users/ivanlee/.npm/debug/2.2.0/package/package.json not in flight; writing
+427 verbose correctMkdir /Users/ivanlee/.npm correctMkdir not in flight; initializing
+428 verbose afterAdd /Users/ivanlee/.npm/debug/2.2.0/package/package.json written
+429 http 200 https://registry.npmjs.org/bindings
+430 verbose headers { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+430 verbose headers   etag: '"33TX4J3DNTGF7K41ZUV6OA182"',
+430 verbose headers   'content-type': 'application/json',
+430 verbose headers   'content-encoding': 'gzip',
+430 verbose headers   'cache-control': 'max-age=300',
+430 verbose headers   'content-length': '3804',
+430 verbose headers   'accept-ranges': 'bytes',
+430 verbose headers   date: 'Fri, 17 Jun 2016 06:05:53 GMT',
+430 verbose headers   via: '1.1 varnish',
+430 verbose headers   age: '106',
+430 verbose headers   connection: 'keep-alive',
+430 verbose headers   'x-served-by': 'cache-lcy1123-LCY',
+430 verbose headers   'x-cache': 'HIT',
+430 verbose headers   'x-cache-hits': '1',
+430 verbose headers   'x-timer': 'S1466143553.044054,VS0,VE0',
+430 verbose headers   vary: 'Accept-Encoding' }
+431 silly get cb [ 200,
+431 silly get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+431 silly get     etag: '"33TX4J3DNTGF7K41ZUV6OA182"',
+431 silly get     'content-type': 'application/json',
+431 silly get     'content-encoding': 'gzip',
+431 silly get     'cache-control': 'max-age=300',
+431 silly get     'content-length': '3804',
+431 silly get     'accept-ranges': 'bytes',
+431 silly get     date: 'Fri, 17 Jun 2016 06:05:53 GMT',
+431 silly get     via: '1.1 varnish',
+431 silly get     age: '106',
+431 silly get     connection: 'keep-alive',
+431 silly get     'x-served-by': 'cache-lcy1123-LCY',
+431 silly get     'x-cache': 'HIT',
+431 silly get     'x-cache-hits': '1',
+431 silly get     'x-timer': 'S1466143553.044054,VS0,VE0',
+431 silly get     vary: 'Accept-Encoding' } ]
+432 verbose get saving bindings to /Users/ivanlee/.npm/registry.npmjs.org/bindings/.cache.json
+433 verbose correctMkdir /Users/ivanlee/.npm correctMkdir not in flight; initializing
+434 silly resolveWithNewModule bindings@1.2.1 checking installable status
+435 silly cache add args [ 'bindings@1', null ]
+436 verbose cache add spec bindings@1
+437 silly cache add parsed spec Result {
+437 silly cache add   raw: 'bindings@1',
+437 silly cache add   scope: null,
+437 silly cache add   name: 'bindings',
+437 silly cache add   rawSpec: '1',
+437 silly cache add   spec: '>=1.0.0 <2.0.0',
+437 silly cache add   type: 'range' }
+438 silly addNamed bindings@>=1.0.0 <2.0.0
+439 verbose addNamed ">=1.0.0 <2.0.0" is a valid semver range for bindings
+440 silly addNameRange { name: 'bindings', range: '>=1.0.0 <2.0.0', hasData: false }
+441 silly mapToRegistry name bindings
+442 silly mapToRegistry using default registry
+443 silly mapToRegistry registry https://registry.npmjs.org/
+444 silly mapToRegistry data Result {
+444 silly mapToRegistry   raw: 'bindings',
+444 silly mapToRegistry   scope: null,
+444 silly mapToRegistry   name: 'bindings',
+444 silly mapToRegistry   rawSpec: '',
+444 silly mapToRegistry   spec: 'latest',
+444 silly mapToRegistry   type: 'tag' }
+445 silly mapToRegistry uri https://registry.npmjs.org/bindings
+446 verbose addNameRange registry:https://registry.npmjs.org/bindings not in flight; fetching
+447 verbose get https://registry.npmjs.org/bindings not expired, no request
+448 silly addNameRange number 2 { name: 'bindings', range: '>=1.0.0 <2.0.0', hasData: true }
+449 silly addNameRange versions [ 'bindings',
+449 silly addNameRange   [ '0.0.1',
+449 silly addNameRange     '0.1.0',
+449 silly addNameRange     '0.1.1',
+449 silly addNameRange     '0.2.0',
+449 silly addNameRange     '0.2.1',
+449 silly addNameRange     '0.2.2',
+449 silly addNameRange     '0.2.3',
+449 silly addNameRange     '0.2.4',
+449 silly addNameRange     '0.3.0',
+449 silly addNameRange     '0.4.0',
+449 silly addNameRange     '1.0.0',
+449 silly addNameRange     '1.1.0',
+449 silly addNameRange     '1.1.1',
+449 silly addNameRange     '1.2.0',
+449 silly addNameRange     '1.2.1' ] ]
+450 silly addNamed bindings@1.2.1
+451 verbose addNamed "1.2.1" is a plain semver version for bindings
+452 silly mapToRegistry name bindings
+453 silly mapToRegistry using default registry
+454 silly mapToRegistry registry https://registry.npmjs.org/
+455 silly mapToRegistry data Result {
+455 silly mapToRegistry   raw: 'bindings',
+455 silly mapToRegistry   scope: null,
+455 silly mapToRegistry   name: 'bindings',
+455 silly mapToRegistry   rawSpec: '',
+455 silly mapToRegistry   spec: 'latest',
+455 silly mapToRegistry   type: 'tag' }
+456 silly mapToRegistry uri https://registry.npmjs.org/bindings
+457 verbose addRemoteTarball https://registry.npmjs.org/bindings/-/bindings-1.2.1.tgz not in flight; adding
+458 verbose addRemoteTarball [ 'https://registry.npmjs.org/bindings/-/bindings-1.2.1.tgz',
+458 verbose addRemoteTarball   '14ad6113812d2d37d72e67b4cacb4bb726505f11' ]
+459 info retry fetch attempt 1 at 14:07:55
+460 info attempt registry request try #1 at 14:07:55
+461 http fetch GET https://registry.npmjs.org/bindings/-/bindings-1.2.1.tgz
+462 http fetch 200 https://registry.npmjs.org/bindings/-/bindings-1.2.1.tgz
+463 silly fetchAndShaCheck shasum 14ad6113812d2d37d72e67b4cacb4bb726505f11
+464 verbose addTmpTarball /var/folders/m9/j2w1lpcj38dcknq58_11mv9h0000gn/T/npm-4058-8b1a5861/registry.npmjs.org/bindings/-/bindings-1.2.1.tgz not in flight; adding
+465 verbose addTmpTarball already have metadata; skipping unpack for bindings@1.2.1
+466 verbose correctMkdir /Users/ivanlee/.npm correctMkdir not in flight; initializing
+467 silly cache afterAdd bindings@1.2.1
+468 verbose afterAdd /Users/ivanlee/.npm/bindings/1.2.1/package/package.json not in flight; writing
+469 verbose correctMkdir /Users/ivanlee/.npm correctMkdir not in flight; initializing
+470 verbose afterAdd /Users/ivanlee/.npm/bindings/1.2.1/package/package.json written
+471 silly fetchAndShaCheck shasum 822a0dc266290ce4cd3a12282ca3e7e364668a08
+472 verbose addTmpTarball /var/folders/m9/j2w1lpcj38dcknq58_11mv9h0000gn/T/npm-4058-8b1a5861/registry.npmjs.org/nan/-/nan-2.3.5.tgz not in flight; adding
+473 verbose addTmpTarball already have metadata; skipping unpack for nan@2.3.5
+474 verbose correctMkdir /Users/ivanlee/.npm correctMkdir not in flight; initializing
+475 silly cache afterAdd nan@2.3.5
+476 verbose afterAdd /Users/ivanlee/.npm/nan/2.3.5/package/package.json not in flight; writing
+477 verbose correctMkdir /Users/ivanlee/.npm correctMkdir not in flight; initializing
+478 verbose afterAdd /Users/ivanlee/.npm/nan/2.3.5/package/package.json written
+479 silly fetchNamedPackageData ms
+480 silly mapToRegistry name ms
+481 silly mapToRegistry using default registry
+482 silly mapToRegistry registry https://registry.npmjs.org/
+483 silly mapToRegistry data Result {
+483 silly mapToRegistry   raw: 'ms',
+483 silly mapToRegistry   scope: null,
+483 silly mapToRegistry   name: 'ms',
+483 silly mapToRegistry   rawSpec: '',
+483 silly mapToRegistry   spec: 'latest',
+483 silly mapToRegistry   type: 'tag' }
+484 silly mapToRegistry uri https://registry.npmjs.org/ms
+485 verbose request uri https://registry.npmjs.org/ms
+486 verbose request no auth needed
+487 info attempt registry request try #1 at 14:14:46
+488 verbose etag "5143492BBX5I18XHV9RBWJ2GY"
+489 http request GET https://registry.npmjs.org/ms
+490 http 304 https://registry.npmjs.org/ms
+491 verbose headers { date: 'Fri, 17 Jun 2016 06:14:46 GMT',
+491 verbose headers   via: '1.1 varnish',
+491 verbose headers   'cache-control': 'max-age=300',
+491 verbose headers   etag: '"5143492BBX5I18XHV9RBWJ2GY"',
+491 verbose headers   age: '220',
+491 verbose headers   connection: 'keep-alive',
+491 verbose headers   'x-served-by': 'cache-lcy1128-LCY',
+491 verbose headers   'x-cache': 'HIT',
+491 verbose headers   'x-cache-hits': '9',
+491 verbose headers   'x-timer': 'S1466144086.969836,VS0,VE0',
+491 verbose headers   vary: 'Accept-Encoding' }
+492 silly get cb [ 304,
+492 silly get   { date: 'Fri, 17 Jun 2016 06:14:46 GMT',
+492 silly get     via: '1.1 varnish',
+492 silly get     'cache-control': 'max-age=300',
+492 silly get     etag: '"5143492BBX5I18XHV9RBWJ2GY"',
+492 silly get     age: '220',
+492 silly get     connection: 'keep-alive',
+492 silly get     'x-served-by': 'cache-lcy1128-LCY',
+492 silly get     'x-cache': 'HIT',
+492 silly get     'x-cache-hits': '9',
+492 silly get     'x-timer': 'S1466144086.969836,VS0,VE0',
+492 silly get     vary: 'Accept-Encoding' } ]
+493 verbose etag https://registry.npmjs.org/ms from cache
+494 verbose get saving ms to /Users/ivanlee/.npm/registry.npmjs.org/ms/.cache.json
+495 verbose correctMkdir /Users/ivanlee/.npm correctMkdir not in flight; initializing
+496 silly resolveWithNewModule ms@0.7.1 checking installable status
+497 silly cache add args [ 'ms@0.7.1', null ]
+498 verbose cache add spec ms@0.7.1
+499 silly cache add parsed spec Result {
+499 silly cache add   raw: 'ms@0.7.1',
+499 silly cache add   scope: null,
+499 silly cache add   name: 'ms',
+499 silly cache add   rawSpec: '0.7.1',
+499 silly cache add   spec: '0.7.1',
+499 silly cache add   type: 'version' }
+500 silly addNamed ms@0.7.1
+501 verbose addNamed "0.7.1" is a plain semver version for ms
+502 silly mapToRegistry name ms
+503 silly mapToRegistry using default registry
+504 silly mapToRegistry registry https://registry.npmjs.org/
+505 silly mapToRegistry data Result {
+505 silly mapToRegistry   raw: 'ms',
+505 silly mapToRegistry   scope: null,
+505 silly mapToRegistry   name: 'ms',
+505 silly mapToRegistry   rawSpec: '',
+505 silly mapToRegistry   spec: 'latest',
+505 silly mapToRegistry   type: 'tag' }
+506 silly mapToRegistry uri https://registry.npmjs.org/ms
+507 verbose addNameVersion registry:https://registry.npmjs.org/ms not in flight; fetching
+508 verbose get https://registry.npmjs.org/ms not expired, no request
+509 silly cache afterAdd ms@0.7.1
+510 verbose afterAdd /Users/ivanlee/.npm/ms/0.7.1/package/package.json not in flight; writing
+511 verbose correctMkdir /Users/ivanlee/.npm correctMkdir not in flight; initializing
+512 verbose afterAdd /Users/ivanlee/.npm/ms/0.7.1/package/package.json written
+513 silly loadAllDepsIntoIdealTree Finishing
+514 silly idealTree:prePrune doc
+514 silly idealTree:prePrune ├── assert@1.4.1
+514 silly idealTree:prePrune ├── async@1.5.2
+514 silly idealTree:prePrune ├── bindings@1.2.1
+514 silly idealTree:prePrune ├── debug@2.2.0
+514 silly idealTree:prePrune ├── inherits@2.0.1
+514 silly idealTree:prePrune ├── ms@0.7.1
+514 silly idealTree:prePrune ├── nan@2.3.5
+514 silly idealTree:prePrune ├── ref-struct@1.0.2
+514 silly idealTree:prePrune ├── ref@1.3.2
+514 silly idealTree:prePrune ├── util@0.10.3
+514 silly idealTree:prePrune └── win32ole@0.1.3
+515 silly loadIdealTree Finishing
+516 silly currentTree doc
+517 silly idealTree doc
+517 silly idealTree ├── assert@1.4.1
+517 silly idealTree ├── async@1.5.2
+517 silly idealTree ├── bindings@1.2.1
+517 silly idealTree ├── debug@2.2.0
+517 silly idealTree ├── inherits@2.0.1
+517 silly idealTree ├── ms@0.7.1
+517 silly idealTree ├── nan@2.3.5
+517 silly idealTree ├── ref-struct@1.0.2
+517 silly idealTree ├── ref@1.3.2
+517 silly idealTree ├── util@0.10.3
+517 silly idealTree └── win32ole@0.1.3
+518 silly generateActionsToTake Starting
+519 silly install generateActionsToTake
+520 silly generateActionsToTake Finishing
+521 silly diffTrees action count 11
+522 silly diffTrees add async@1.5.2
+523 silly diffTrees add bindings@1.2.1
+524 silly diffTrees add inherits@2.0.1
+525 silly diffTrees add ms@0.7.1
+526 silly diffTrees add debug@2.2.0
+527 silly diffTrees add nan@2.3.5
+528 silly diffTrees add ref@1.3.2
+529 silly diffTrees add ref-struct@1.0.2
+530 silly diffTrees add util@0.10.3
+531 silly diffTrees add assert@1.4.1
+532 silly diffTrees add win32ole@0.1.3
+533 silly decomposeActions action count 88
+534 silly decomposeActions fetch async@1.5.2
+535 silly decomposeActions extract async@1.5.2
+536 silly decomposeActions test async@1.5.2
+537 silly decomposeActions preinstall async@1.5.2
+538 silly decomposeActions build async@1.5.2
+539 silly decomposeActions install async@1.5.2
+540 silly decomposeActions postinstall async@1.5.2
+541 silly decomposeActions finalize async@1.5.2
+542 silly decomposeActions fetch bindings@1.2.1
+543 silly decomposeActions extract bindings@1.2.1
+544 silly decomposeActions test bindings@1.2.1
+545 silly decomposeActions preinstall bindings@1.2.1
+546 silly decomposeActions build bindings@1.2.1
+547 silly decomposeActions install bindings@1.2.1
+548 silly decomposeActions postinstall bindings@1.2.1
+549 silly decomposeActions finalize bindings@1.2.1
+550 silly decomposeActions fetch inherits@2.0.1
+551 silly decomposeActions extract inherits@2.0.1
+552 silly decomposeActions test inherits@2.0.1
+553 silly decomposeActions preinstall inherits@2.0.1
+554 silly decomposeActions build inherits@2.0.1
+555 silly decomposeActions install inherits@2.0.1
+556 silly decomposeActions postinstall inherits@2.0.1
+557 silly decomposeActions finalize inherits@2.0.1
+558 silly decomposeActions fetch ms@0.7.1
+559 silly decomposeActions extract ms@0.7.1
+560 silly decomposeActions test ms@0.7.1
+561 silly decomposeActions preinstall ms@0.7.1
+562 silly decomposeActions build ms@0.7.1
+563 silly decomposeActions install ms@0.7.1
+564 silly decomposeActions postinstall ms@0.7.1
+565 silly decomposeActions finalize ms@0.7.1
+566 silly decomposeActions fetch debug@2.2.0
+567 silly decomposeActions extract debug@2.2.0
+568 silly decomposeActions test debug@2.2.0
+569 silly decomposeActions preinstall debug@2.2.0
+570 silly decomposeActions build debug@2.2.0
+571 silly decomposeActions install debug@2.2.0
+572 silly decomposeActions postinstall debug@2.2.0
+573 silly decomposeActions finalize debug@2.2.0
+574 silly decomposeActions fetch nan@2.3.5
+575 silly decomposeActions extract nan@2.3.5
+576 silly decomposeActions test nan@2.3.5
+577 silly decomposeActions preinstall nan@2.3.5
+578 silly decomposeActions build nan@2.3.5
+579 silly decomposeActions install nan@2.3.5
+580 silly decomposeActions postinstall nan@2.3.5
+581 silly decomposeActions finalize nan@2.3.5
+582 silly decomposeActions fetch ref@1.3.2
+583 silly decomposeActions extract ref@1.3.2
+584 silly decomposeActions test ref@1.3.2
+585 silly decomposeActions preinstall ref@1.3.2
+586 silly decomposeActions build ref@1.3.2
+587 silly decomposeActions install ref@1.3.2
+588 silly decomposeActions postinstall ref@1.3.2
+589 silly decomposeActions finalize ref@1.3.2
+590 silly decomposeActions fetch ref-struct@1.0.2
+591 silly decomposeActions extract ref-struct@1.0.2
+592 silly decomposeActions test ref-struct@1.0.2
+593 silly decomposeActions preinstall ref-struct@1.0.2
+594 silly decomposeActions build ref-struct@1.0.2
+595 silly decomposeActions install ref-struct@1.0.2
+596 silly decomposeActions postinstall ref-struct@1.0.2
+597 silly decomposeActions finalize ref-struct@1.0.2
+598 silly decomposeActions fetch util@0.10.3
+599 silly decomposeActions extract util@0.10.3
+600 silly decomposeActions test util@0.10.3
+601 silly decomposeActions preinstall util@0.10.3
+602 silly decomposeActions build util@0.10.3
+603 silly decomposeActions install util@0.10.3
+604 silly decomposeActions postinstall util@0.10.3
+605 silly decomposeActions finalize util@0.10.3
+606 silly decomposeActions fetch assert@1.4.1
+607 silly decomposeActions extract assert@1.4.1
+608 silly decomposeActions test assert@1.4.1
+609 silly decomposeActions preinstall assert@1.4.1
+610 silly decomposeActions build assert@1.4.1
+611 silly decomposeActions install assert@1.4.1
+612 silly decomposeActions postinstall assert@1.4.1
+613 silly decomposeActions finalize assert@1.4.1
+614 silly decomposeActions fetch win32ole@0.1.3
+615 silly decomposeActions extract win32ole@0.1.3
+616 silly decomposeActions test win32ole@0.1.3
+617 silly decomposeActions preinstall win32ole@0.1.3
+618 silly decomposeActions build win32ole@0.1.3
+619 silly decomposeActions install win32ole@0.1.3
+620 silly decomposeActions postinstall win32ole@0.1.3
+621 silly decomposeActions finalize win32ole@0.1.3
+622 silly executeActions Starting
+623 silly install executeActions
+624 silly doSerial global-install 0
+625 silly doParallel fetch 11
+626 verbose correctMkdir /Users/ivanlee/.npm/_locks correctMkdir not in flight; initializing
+627 verbose lock using /Users/ivanlee/.npm/_locks/staging-987a7fb51c4e96e4.lock for /Users/ivanlee/Desktop/work_git/Hello_world/doc/node_modules/.staging
+628 silly doParallel extract 11
+629 silly extract async@1.5.2
+630 silly extract bindings@1.2.1
+631 silly extract inherits@2.0.1
+632 silly extract ms@0.7.1
+633 silly extract debug@2.2.0
+634 silly extract nan@2.3.5
+635 silly extract ref@1.3.2
+636 silly extract ref-struct@1.0.2
+637 silly extract util@0.10.3
+638 silly extract assert@1.4.1
+639 silly extract win32ole@0.1.3
+640 verbose unbuild node_modules/.staging/async-ea13c9dc
+641 verbose unbuild node_modules/.staging/inherits-7d7c26ff
+642 verbose unbuild node_modules/.staging/bindings-6061236a
+643 verbose unbuild node_modules/.staging/ms-8b9edbf2
+644 verbose unbuild node_modules/.staging/debug-c0ba8e5d
+645 verbose unbuild node_modules/.staging/nan-b9a50500
+646 verbose unbuild node_modules/.staging/ref-052b0356
+647 verbose unbuild node_modules/.staging/ref-struct-f1f8ed01
+648 verbose unbuild node_modules/.staging/util-51d336ce
+649 verbose unbuild node_modules/.staging/assert-d021b963
+650 verbose unbuild node_modules/.staging/win32ole-62904085
+651 silly gentlyRm /Users/ivanlee/Desktop/work_git/Hello_world/doc/node_modules/.staging/async-ea13c9dc is being purged from base /Users/ivanlee/Desktop/work_git/Hello_world/doc
+652 verbose gentlyRm don't care about contents; nuking /Users/ivanlee/Desktop/work_git/Hello_world/doc/node_modules/.staging/async-ea13c9dc
+653 silly gentlyRm /Users/ivanlee/Desktop/work_git/Hello_world/doc/node_modules/.staging/inherits-7d7c26ff is being purged from base /Users/ivanlee/Desktop/work_git/Hello_world/doc
+654 verbose gentlyRm don't care about contents; nuking /Users/ivanlee/Desktop/work_git/Hello_world/doc/node_modules/.staging/inherits-7d7c26ff
+655 silly gentlyRm /Users/ivanlee/Desktop/work_git/Hello_world/doc/node_modules/.staging/bindings-6061236a is being purged from base /Users/ivanlee/Desktop/work_git/Hello_world/doc
+656 verbose gentlyRm don't care about contents; nuking /Users/ivanlee/Desktop/work_git/Hello_world/doc/node_modules/.staging/bindings-6061236a
+657 silly gentlyRm /Users/ivanlee/Desktop/work_git/Hello_world/doc/node_modules/.staging/ms-8b9edbf2 is being purged from base /Users/ivanlee/Desktop/work_git/Hello_world/doc
+658 verbose gentlyRm don't care about contents; nuking /Users/ivanlee/Desktop/work_git/Hello_world/doc/node_modules/.staging/ms-8b9edbf2
+659 silly gentlyRm /Users/ivanlee/Desktop/work_git/Hello_world/doc/node_modules/.staging/debug-c0ba8e5d is being purged from base /Users/ivanlee/Desktop/work_git/Hello_world/doc
+660 verbose gentlyRm don't care about contents; nuking /Users/ivanlee/Desktop/work_git/Hello_world/doc/node_modules/.staging/debug-c0ba8e5d
+661 silly gentlyRm /Users/ivanlee/Desktop/work_git/Hello_world/doc/node_modules/.staging/nan-b9a50500 is being purged from base /Users/ivanlee/Desktop/work_git/Hello_world/doc
+662 verbose gentlyRm don't care about contents; nuking /Users/ivanlee/Desktop/work_git/Hello_world/doc/node_modules/.staging/nan-b9a50500
+663 silly gentlyRm /Users/ivanlee/Desktop/work_git/Hello_world/doc/node_modules/.staging/ref-052b0356 is being purged from base /Users/ivanlee/Desktop/work_git/Hello_world/doc
+664 verbose gentlyRm don't care about contents; nuking /Users/ivanlee/Desktop/work_git/Hello_world/doc/node_modules/.staging/ref-052b0356
+665 silly gentlyRm /Users/ivanlee/Desktop/work_git/Hello_world/doc/node_modules/.staging/ref-struct-f1f8ed01 is being purged from base /Users/ivanlee/Desktop/work_git/Hello_world/doc
+666 verbose gentlyRm don't care about contents; nuking /Users/ivanlee/Desktop/work_git/Hello_world/doc/node_modules/.staging/ref-struct-f1f8ed01
+667 silly gentlyRm /Users/ivanlee/Desktop/work_git/Hello_world/doc/node_modules/.staging/util-51d336ce is being purged from base /Users/ivanlee/Desktop/work_git/Hello_world/doc
+668 verbose gentlyRm don't care about contents; nuking /Users/ivanlee/Desktop/work_git/Hello_world/doc/node_modules/.staging/util-51d336ce
+669 silly gentlyRm /Users/ivanlee/Desktop/work_git/Hello_world/doc/node_modules/.staging/assert-d021b963 is being purged from base /Users/ivanlee/Desktop/work_git/Hello_world/doc
+670 verbose gentlyRm don't care about contents; nuking /Users/ivanlee/Desktop/work_git/Hello_world/doc/node_modules/.staging/assert-d021b963
+671 verbose tar unpack /Users/ivanlee/.npm/async/1.5.2/package.tgz
+672 verbose tar unpacking to /Users/ivanlee/Desktop/work_git/Hello_world/doc/node_modules/.staging/async-ea13c9dc
+673 silly gentlyRm /Users/ivanlee/Desktop/work_git/Hello_world/doc/node_modules/.staging/async-ea13c9dc is being purged
+674 verbose gentlyRm don't care about contents; nuking /Users/ivanlee/Desktop/work_git/Hello_world/doc/node_modules/.staging/async-ea13c9dc
+675 silly gentlyRm /Users/ivanlee/Desktop/work_git/Hello_world/doc/node_modules/.staging/win32ole-62904085 is being purged from base /Users/ivanlee/Desktop/work_git/Hello_world/doc
+676 verbose gentlyRm don't care about contents; nuking /Users/ivanlee/Desktop/work_git/Hello_world/doc/node_modules/.staging/win32ole-62904085
+677 verbose tar unpack /Users/ivanlee/.npm/inherits/2.0.1/package.tgz
+678 verbose tar unpacking to /Users/ivanlee/Desktop/work_git/Hello_world/doc/node_modules/.staging/inherits-7d7c26ff
+679 silly gentlyRm /Users/ivanlee/Desktop/work_git/Hello_world/doc/node_modules/.staging/inherits-7d7c26ff is being purged
+680 verbose gentlyRm don't care about contents; nuking /Users/ivanlee/Desktop/work_git/Hello_world/doc/node_modules/.staging/inherits-7d7c26ff
+681 verbose tar unpack /Users/ivanlee/.npm/bindings/1.2.1/package.tgz
+682 verbose tar unpacking to /Users/ivanlee/Desktop/work_git/Hello_world/doc/node_modules/.staging/bindings-6061236a
+683 silly gentlyRm /Users/ivanlee/Desktop/work_git/Hello_world/doc/node_modules/.staging/bindings-6061236a is being purged
+684 verbose gentlyRm don't care about contents; nuking /Users/ivanlee/Desktop/work_git/Hello_world/doc/node_modules/.staging/bindings-6061236a
+685 verbose tar unpack /Users/ivanlee/.npm/ms/0.7.1/package.tgz
+686 verbose tar unpacking to /Users/ivanlee/Desktop/work_git/Hello_world/doc/node_modules/.staging/ms-8b9edbf2
+687 silly gentlyRm /Users/ivanlee/Desktop/work_git/Hello_world/doc/node_modules/.staging/ms-8b9edbf2 is being purged
+688 verbose gentlyRm don't care about contents; nuking /Users/ivanlee/Desktop/work_git/Hello_world/doc/node_modules/.staging/ms-8b9edbf2
+689 verbose tar unpack /Users/ivanlee/.npm/debug/2.2.0/package.tgz
+690 verbose tar unpacking to /Users/ivanlee/Desktop/work_git/Hello_world/doc/node_modules/.staging/debug-c0ba8e5d
+691 silly gentlyRm /Users/ivanlee/Desktop/work_git/Hello_world/doc/node_modules/.staging/debug-c0ba8e5d is being purged
+692 verbose gentlyRm don't care about contents; nuking /Users/ivanlee/Desktop/work_git/Hello_world/doc/node_modules/.staging/debug-c0ba8e5d
+693 verbose tar unpack /Users/ivanlee/.npm/nan/2.3.5/package.tgz
+694 verbose tar unpacking to /Users/ivanlee/Desktop/work_git/Hello_world/doc/node_modules/.staging/nan-b9a50500
+695 silly gentlyRm /Users/ivanlee/Desktop/work_git/Hello_world/doc/node_modules/.staging/nan-b9a50500 is being purged
+696 verbose gentlyRm don't care about contents; nuking /Users/ivanlee/Desktop/work_git/Hello_world/doc/node_modules/.staging/nan-b9a50500
+697 verbose tar unpack /Users/ivanlee/.npm/ref/1.3.2/package.tgz
+698 verbose tar unpacking to /Users/ivanlee/Desktop/work_git/Hello_world/doc/node_modules/.staging/ref-052b0356
+699 silly gentlyRm /Users/ivanlee/Desktop/work_git/Hello_world/doc/node_modules/.staging/ref-052b0356 is being purged
+700 verbose gentlyRm don't care about contents; nuking /Users/ivanlee/Desktop/work_git/Hello_world/doc/node_modules/.staging/ref-052b0356
+701 verbose tar unpack /Users/ivanlee/.npm/ref-struct/1.0.2/package.tgz
+702 verbose tar unpacking to /Users/ivanlee/Desktop/work_git/Hello_world/doc/node_modules/.staging/ref-struct-f1f8ed01
+703 silly gentlyRm /Users/ivanlee/Desktop/work_git/Hello_world/doc/node_modules/.staging/ref-struct-f1f8ed01 is being purged
+704 verbose gentlyRm don't care about contents; nuking /Users/ivanlee/Desktop/work_git/Hello_world/doc/node_modules/.staging/ref-struct-f1f8ed01
+705 verbose tar unpack /Users/ivanlee/.npm/util/0.10.3/package.tgz
+706 verbose tar unpacking to /Users/ivanlee/Desktop/work_git/Hello_world/doc/node_modules/.staging/util-51d336ce
+707 silly gentlyRm /Users/ivanlee/Desktop/work_git/Hello_world/doc/node_modules/.staging/util-51d336ce is being purged
+708 verbose gentlyRm don't care about contents; nuking /Users/ivanlee/Desktop/work_git/Hello_world/doc/node_modules/.staging/util-51d336ce
+709 verbose tar unpack /Users/ivanlee/.npm/assert/1.4.1/package.tgz
+710 verbose tar unpacking to /Users/ivanlee/Desktop/work_git/Hello_world/doc/node_modules/.staging/assert-d021b963
+711 silly gentlyRm /Users/ivanlee/Desktop/work_git/Hello_world/doc/node_modules/.staging/assert-d021b963 is being purged
+712 verbose gentlyRm don't care about contents; nuking /Users/ivanlee/Desktop/work_git/Hello_world/doc/node_modules/.staging/assert-d021b963
+713 silly gunzTarPerm modes [ '755', '644' ]
+714 verbose tar unpack /Users/ivanlee/.npm/win32ole/0.1.3/package.tgz
+715 verbose tar unpacking to /Users/ivanlee/Desktop/work_git/Hello_world/doc/node_modules/.staging/win32ole-62904085
+716 silly gentlyRm /Users/ivanlee/Desktop/work_git/Hello_world/doc/node_modules/.staging/win32ole-62904085 is being purged
+717 verbose gentlyRm don't care about contents; nuking /Users/ivanlee/Desktop/work_git/Hello_world/doc/node_modules/.staging/win32ole-62904085
+718 silly gunzTarPerm modes [ '755', '644' ]
+719 silly gunzTarPerm modes [ '755', '644' ]
+720 silly gunzTarPerm modes [ '755', '644' ]
+721 silly gunzTarPerm modes [ '755', '644' ]
+722 silly gunzTarPerm modes [ '755', '644' ]
+723 silly gunzTarPerm modes [ '755', '644' ]
+724 silly gunzTarPerm modes [ '755', '644' ]
+725 silly gunzTarPerm modes [ '755', '644' ]
+726 silly gunzTarPerm modes [ '755', '644' ]
+727 silly gunzTarPerm modes [ '755', '644' ]
+728 silly gunzTarPerm extractEntry package.json
+729 silly gunzTarPerm modified mode [ 'package.json', 436, 420 ]
+730 silly gunzTarPerm extractEntry package.json
+731 silly gunzTarPerm extractEntry package.json
+732 silly gunzTarPerm extractEntry package.json
+733 silly gunzTarPerm extractEntry package.json
+734 silly gunzTarPerm extractEntry package.json
+735 silly gunzTarPerm extractEntry package.json
+736 silly gunzTarPerm modified mode [ 'package.json', 436, 420 ]
+737 silly gunzTarPerm extractEntry package.json
+738 silly gunzTarPerm extractEntry package.json
+739 silly gunzTarPerm extractEntry package.json
+740 silly gunzTarPerm extractEntry package.json
+741 silly gunzTarPerm modified mode [ 'package.json', 438, 420 ]
+742 silly gunzTarPerm extractEntry README.md
+743 silly gunzTarPerm modified mode [ 'README.md', 436, 420 ]
+744 silly gunzTarPerm extractEntry README.md
+745 silly gunzTarPerm extractEntry LICENSE
+746 silly gunzTarPerm extractEntry README.md
+747 silly gunzTarPerm extractEntry bindings.js
+748 silly gunzTarPerm extractEntry .npmignore
+749 silly gunzTarPerm extractEntry node.js
+750 silly gunzTarPerm extractEntry .npmignore
+751 silly gunzTarPerm extractEntry README.md
+752 silly gunzTarPerm extractEntry .npmignore
+753 silly gunzTarPerm extractEntry README.md
+754 silly gunzTarPerm extractEntry README.md
+755 silly gunzTarPerm modified mode [ 'README.md', 436, 420 ]
+756 silly gunzTarPerm extractEntry .npmignore
+757 silly gunzTarPerm extractEntry README.md
+758 silly gunzTarPerm extractEntry .npmignore
+759 silly gunzTarPerm extractEntry README.md
+760 silly gunzTarPerm extractEntry .npmignore
+761 silly gunzTarPerm extractEntry README.md
+762 silly gunzTarPerm extractEntry include_dirs.js
+763 silly gunzTarPerm modified mode [ 'include_dirs.js', 436, 420 ]
+764 silly gunzTarPerm extractEntry LICENSE
+765 silly gunzTarPerm modified mode [ 'LICENSE', 436, 420 ]
+766 silly gunzTarPerm extractEntry .npmignore
+767 silly gunzTarPerm modified mode [ '.npmignore', 438, 420 ]
+768 silly gunzTarPerm extractEntry README.md
+769 silly gunzTarPerm modified mode [ 'README.md', 438, 420 ]
+770 silly gunzTarPerm extractEntry inherits.js
+771 silly gunzTarPerm extractEntry inherits_browser.js
+772 silly gunzTarPerm extractEntry LICENSE
+773 silly gunzTarPerm extractEntry index.js
+774 silly gunzTarPerm extractEntry CHANGELOG.md
+775 silly gunzTarPerm modified mode [ 'CHANGELOG.md', 436, 420 ]
+776 silly gunzTarPerm extractEntry dist/async.js
+777 silly gunzTarPerm modified mode [ 'dist/async.js', 436, 420 ]
+778 silly gunzTarPerm extractEntry dist/async.min.js
+779 silly gunzTarPerm modified mode [ 'dist/async.min.js', 436, 420 ]
+780 silly gunzTarPerm extractEntry debug.js
+781 silly gunzTarPerm extractEntry browser.js
+782 silly gunzTarPerm extractEntry appveyor.yml
+783 silly gunzTarPerm extractEntry binding.gyp
+784 silly gunzTarPerm extractEntry nan_converters.h
+785 silly gunzTarPerm modified mode [ 'nan_converters.h', 436, 420 ]
+786 silly gunzTarPerm extractEntry LICENSE.md
+787 silly gunzTarPerm modified mode [ 'LICENSE.md', 436, 420 ]
+788 silly gunzTarPerm extractEntry doc/node_misc.md
+789 silly gunzTarPerm modified mode [ 'doc/node_misc.md', 436, 420 ]
+790 silly gunzTarPerm extractEntry .travis.yml
+791 silly gunzTarPerm extractEntry History.md
+792 silly gunzTarPerm extractEntry LICENSE
+793 silly gunzTarPerm extractEntry assert.js
+794 silly gunzTarPerm extractEntry LICENSE
+795 silly gunzTarPerm extractEntry util.js
+796 silly gunzTarPerm extractEntry win32ole.js
+797 silly gunzTarPerm modified mode [ 'win32ole.js', 438, 420 ]
+798 silly gunzTarPerm extractEntry binding.gyp
+799 silly gunzTarPerm modified mode [ 'binding.gyp', 438, 420 ]
+800 silly gunzTarPerm extractEntry lib/async.js
+801 silly gunzTarPerm modified mode [ 'lib/async.js', 436, 420 ]
+802 silly gunzTarPerm extractEntry doc/asyncworker.md
+803 silly gunzTarPerm modified mode [ 'doc/asyncworker.md', 436, 420 ]
+804 silly gunzTarPerm extractEntry History.md
+805 silly gunzTarPerm extractEntry .travis.yml
+806 silly gunzTarPerm extractEntry docs/compile.js
+807 silly gunzTarPerm extractEntry test.js
+808 silly gunzTarPerm extractEntry Readme.md
+809 silly gunzTarPerm extractEntry .jshintrc
+810 silly gunzTarPerm extractEntry appveyor.yml
+811 silly gunzTarPerm extractEntry .travis.yml
+812 silly gunzTarPerm extractEntry test.js
+813 silly gunzTarPerm extractEntry examples/access_mdb_sample.js
+814 silly gunzTarPerm modified mode [ 'examples/access_mdb_sample.js', 438, 420 ]
+815 silly gunzTarPerm extractEntry examples/maze_creator.js
+816 silly gunzTarPerm modified mode [ 'examples/maze_creator.js', 438, 420 ]
+817 silly gunzTarPerm extractEntry examples/maze_solver.js
+818 silly gunzTarPerm modified mode [ 'examples/maze_solver.js', 438, 420 ]
+819 silly gunzTarPerm extractEntry examples/word_sample.js
+820 silly gunzTarPerm modified mode [ 'examples/word_sample.js', 438, 420 ]
+821 silly gunzTarPerm extractEntry examples/ie_sample.js
+822 silly gunzTarPerm modified mode [ 'examples/ie_sample.js', 438, 420 ]
+823 silly gunzTarPerm extractEntry examples/activex_filesystemobject_sample.js
+824 silly gunzTarPerm modified mode [ 'examples/activex_filesystemobject_sample.js', 438, 420 ]
+825 silly gunzTarPerm extractEntry examples/ole_args_test_client_metamorphoses.js
+826 silly gunzTarPerm modified mode [ 'examples/ole_args_test_client_metamorphoses.js', 438, 420 ]
+827 silly gunzTarPerm extractEntry examples/outlook_sample.js
+828 silly gunzTarPerm modified mode [ 'examples/outlook_sample.js', 438, 420 ]
+829 silly gunzTarPerm extractEntry examples/typelibrary_sample.js
+830 silly gunzTarPerm modified mode [ 'examples/typelibrary_sample.js', 438, 420 ]
+831 silly gunzTarPerm extractEntry examples/uncfinder_sample.js
+832 silly gunzTarPerm modified mode [ 'examples/uncfinder_sample.js', 438, 420 ]
+833 silly gunzTarPerm extractEntry examples/wmi_sample.js
+834 silly gunzTarPerm modified mode [ 'examples/wmi_sample.js', 438, 420 ]
+835 silly gunzTarPerm extractEntry examples/wsh_sample.js
+836 silly gunzTarPerm modified mode [ 'examples/wsh_sample.js', 438, 420 ]
+837 silly gunzTarPerm extractEntry examples/ole_args_test_client.js
+838 silly gunzTarPerm modified mode [ 'examples/ole_args_test_client.js', 438, 420 ]
+839 silly gunzTarPerm extractEntry examples/ole_args_tester_server.py
+840 silly gunzTarPerm modified mode [ 'examples/ole_args_tester_server.py', 438, 420 ]
+841 silly gunzTarPerm extractEntry examples/ole_args_tester_client.py
+842 silly gunzTarPerm modified mode [ 'examples/ole_args_tester_client.py', 438, 420 ]
+843 silly gunzTarPerm extractEntry lib/index.js
+844 silly gunzTarPerm modified mode [ 'lib/index.js', 438, 420 ]
+845 silly gunzTarPerm extractEntry lib/trace.js
+846 silly gunzTarPerm modified mode [ 'lib/trace.js', 438, 420 ]
+847 silly gunzTarPerm extractEntry lib/win32ole.js
+848 silly gunzTarPerm modified mode [ 'lib/win32ole.js', 438, 420 ]
+849 silly gunzTarPerm extractEntry Makefile
+850 silly gunzTarPerm modified mode [ 'Makefile', 438, 420 ]
+851 silly gunzTarPerm extractEntry src/node_win32ole.h
+852 silly gunzTarPerm modified mode [ 'src/node_win32ole.h', 438, 420 ]
+853 silly gunzTarPerm extractEntry src/client.cc
+854 silly gunzTarPerm modified mode [ 'src/client.cc', 438, 420 ]
+855 silly gunzTarPerm extractEntry src/force_gc_extension.cc
+856 silly gunzTarPerm modified mode [ 'src/force_gc_extension.cc', 438, 420 ]
+857 silly gunzTarPerm extractEntry src/force_gc_internal.cc
+858 silly gunzTarPerm modified mode [ 'src/force_gc_internal.cc', 438, 420 ]
+859 silly gunzTarPerm extractEntry src/node_win32ole.cc
+860 silly gunzTarPerm modified mode [ 'src/node_win32ole.cc', 438, 420 ]
+861 silly gunzTarPerm extractEntry src/client.h
+862 silly gunzTarPerm modified mode [ 'src/client.h', 438, 420 ]
+863 silly gunzTarPerm extractEntry src/ole32core.cpp
+864 silly gunzTarPerm modified mode [ 'src/ole32core.cpp', 438, 420 ]
+865 silly gunzTarPerm extractEntry src/ole32core.h
+866 silly gunzTarPerm modified mode [ 'src/ole32core.h', 438, 420 ]
+867 silly gunzTarPerm extractEntry src/v8variant.cc
+868 silly gunzTarPerm modified mode [ 'src/v8variant.cc', 438, 420 ]
+869 silly gunzTarPerm extractEntry src/v8variant.h
+870 silly gunzTarPerm modified mode [ 'src/v8variant.h', 438, 420 ]
+871 silly gunzTarPerm extractEntry src/win32ole_gettimeofday.cc
+872 silly gunzTarPerm modified mode [ 'src/win32ole_gettimeofday.cc', 438, 420 ]
+873 silly gunzTarPerm extractEntry test/init_win32ole.test.js
+874 silly gunzTarPerm modified mode [ 'test/init_win32ole.test.js', 438, 420 ]
+875 silly gunzTarPerm extractEntry test/unicode.test.js
+876 silly gunzTarPerm modified mode [ 'test/unicode.test.js', 438, 420 ]
+877 silly gunzTarPerm extractEntry doc/callback.md
+878 silly gunzTarPerm modified mode [ 'doc/callback.md', 436, 420 ]
+879 silly gunzTarPerm extractEntry doc/converters.md
+880 silly gunzTarPerm modified mode [ 'doc/converters.md', 436, 420 ]
+881 silly gunzTarPerm extractEntry .zuul.yml
+882 silly gunzTarPerm extractEntry support/isBuffer.js
+883 silly gunzTarPerm extractEntry lib/struct.js
+884 silly gunzTarPerm extractEntry docs/gh-pages.sh
+885 silly gunzTarPerm extractEntry .travis.yml
+886 silly gunzTarPerm extractEntry .zuul.yml
+887 silly gunzTarPerm extractEntry bower.json
+888 silly gunzTarPerm extractEntry .jshintrc
+889 silly gunzTarPerm extractEntry doc/errors.md
+890 silly gunzTarPerm modified mode [ 'doc/errors.md', 436, 420 ]
+891 silly gunzTarPerm extractEntry doc/maybe_types.md
+892 silly gunzTarPerm modified mode [ 'doc/maybe_types.md', 436, 420 ]
+893 silly gunzTarPerm extractEntry docs/images/apple-touch-icon-114x114.png
+894 silly gunzTarPerm extractEntry docs/images/apple-touch-icon-72x72.png
+895 silly gunzTarPerm extractEntry support/isBufferBrowser.js
+896 silly gunzTarPerm extractEntry test/browser/inspect.js
+897 silly gunzTarPerm extractEntry component.json
+898 silly gunzTarPerm extractEntry Makefile
+899 silly gunzTarPerm extractEntry doc/methods.md
+900 silly gunzTarPerm modified mode [ 'doc/methods.md', 436, 420 ]
+901 silly gunzTarPerm extractEntry doc/new.md
+902 silly gunzTarPerm modified mode [ 'doc/new.md', 436, 420 ]
+903 silly gentlyRm /Users/ivanlee/Desktop/work_git/Hello_world/doc/node_modules/.staging/bindings-6061236a/node_modules is being purged
+904 verbose gentlyRm don't care about contents; nuking /Users/ivanlee/Desktop/work_git/Hello_world/doc/node_modules/.staging/bindings-6061236a/node_modules
+905 silly gunzTarPerm extractEntry docs/images/apple-touch-icon.png
+906 silly gunzTarPerm extractEntry docs/images/favicon.ico
+907 silly gunzTarPerm extractEntry test/browser/is.js
+908 silly gunzTarPerm extractEntry test/node/debug.js
+909 silly gunzTarPerm extractEntry History.md
+910 silly gunzTarPerm extractEntry doc/buffers.md
+911 silly gunzTarPerm modified mode [ 'doc/buffers.md', 436, 420 ]
+912 silly gunzTarPerm extractEntry doc/object_wrappers.md
+913 silly gunzTarPerm modified mode [ 'doc/object_wrappers.md', 436, 420 ]
+914 silly gunzTarPerm extractEntry docs/images/ref.pxm
+915 silly gunzTarPerm extractEntry test/node/format.js
+916 silly gunzTarPerm extractEntry test/node/inspect.js
+917 silly gunzTarPerm extractEntry docs/index.jade
+918 silly gunzTarPerm extractEntry doc/persistent.md
+919 silly gunzTarPerm modified mode [ 'doc/persistent.md', 436, 420 ]
+920 silly gunzTarPerm extractEntry doc/scopes.md
+921 silly gunzTarPerm modified mode [ 'doc/scopes.md', 436, 420 ]
+922 silly gunzTarPerm extractEntry test/node/log.js
+923 silly gunzTarPerm extractEntry test/node/util.js
+924 silly gentlyRm /Users/ivanlee/Desktop/work_git/Hello_world/doc/node_modules/.staging/inherits-7d7c26ff/node_modules is being purged
+925 verbose gentlyRm don't care about contents; nuking /Users/ivanlee/Desktop/work_git/Hello_world/doc/node_modules/.staging/inherits-7d7c26ff/node_modules
+926 silly gunzTarPerm extractEntry docs/scripts/jquery-1.7.2.min.js
+927 silly gunzTarPerm extractEntry docs/scripts/main.js
+928 silly gentlyRm /Users/ivanlee/Desktop/work_git/Hello_world/doc/node_modules/.staging/ms-8b9edbf2/node_modules is being purged
+929 verbose gentlyRm don't care about contents; nuking /Users/ivanlee/Desktop/work_git/Hello_world/doc/node_modules/.staging/ms-8b9edbf2/node_modules
+930 silly gunzTarPerm extractEntry doc/script.md
+931 silly gunzTarPerm modified mode [ 'doc/script.md', 436, 420 ]
+932 silly gunzTarPerm extractEntry doc/string_bytes.md
+933 silly gunzTarPerm modified mode [ 'doc/string_bytes.md', 436, 420 ]
+934 silly gunzTarPerm extractEntry docs/stylesheets/base.css
+935 silly gunzTarPerm extractEntry docs/stylesheets/layout.css
+936 silly gunzTarPerm extractEntry doc/v8_internals.md
+937 silly gunzTarPerm modified mode [ 'doc/v8_internals.md', 436, 420 ]
+938 silly gunzTarPerm extractEntry doc/v8_misc.md
+939 silly gunzTarPerm modified mode [ 'doc/v8_misc.md', 436, 420 ]
+940 silly gunzTarPerm extractEntry docs/stylesheets/skeleton.css
+941 silly gunzTarPerm extractEntry lib/ref.js
+942 silly gunzTarPerm extractEntry src/binding.cc
+943 silly gunzTarPerm extractEntry History.md
+944 silly gunzTarPerm extractEntry test/address.js
+945 silly gunzTarPerm extractEntry test/coerce.js
+946 silly gunzTarPerm extractEntry test/int64.js
+947 silly gunzTarPerm extractEntry test/iojs3issue.js
+948 silly gunzTarPerm extractEntry test/isNull.js
+949 silly gunzTarPerm extractEntry test/char.js
+950 silly gunzTarPerm extractEntry test/pointer.js
+951 silly gunzTarPerm extractEntry test/ref-deref.js
+952 silly gunzTarPerm extractEntry test/reinterpret.js
+953 silly gunzTarPerm extractEntry test/reinterpretUntilZeros.js
+954 silly gunzTarPerm extractEntry test/string.js
+955 silly gunzTarPerm extractEntry test/bool.js
+956 silly gunzTarPerm extractEntry test/types.js
+957 silly gunzTarPerm extractEntry test/alloc.js
+958 silly gunzTarPerm extractEntry test/object.js
+959 silly gunzTarPerm extractEntry test/utf16le.bin
+960 silly gentlyRm /Users/ivanlee/Desktop/work_git/Hello_world/doc/node_modules/.staging/assert-d021b963/node_modules is being purged
+961 verbose gentlyRm don't care about contents; nuking /Users/ivanlee/Desktop/work_git/Hello_world/doc/node_modules/.staging/assert-d021b963/node_modules
+962 silly gentlyRm /Users/ivanlee/Desktop/work_git/Hello_world/doc/node_modules/.staging/ref-struct-f1f8ed01/node_modules is being purged
+963 verbose gentlyRm don't care about contents; nuking /Users/ivanlee/Desktop/work_git/Hello_world/doc/node_modules/.staging/ref-struct-f1f8ed01/node_modules
+964 silly gunzTarPerm extractEntry nan.h
+965 silly gunzTarPerm modified mode [ 'nan.h', 436, 420 ]
+966 silly gentlyRm /Users/ivanlee/Desktop/work_git/Hello_world/doc/node_modules/.staging/async-ea13c9dc/node_modules is being purged
+967 verbose gentlyRm don't care about contents; nuking /Users/ivanlee/Desktop/work_git/Hello_world/doc/node_modules/.staging/async-ea13c9dc/node_modules
+968 silly gunzTarPerm extractEntry nan_callbacks.h
+969 silly gunzTarPerm modified mode [ 'nan_callbacks.h', 436, 420 ]
+970 silly gunzTarPerm extractEntry nan_callbacks_12_inl.h
+971 silly gunzTarPerm modified mode [ 'nan_callbacks_12_inl.h', 436, 420 ]
+972 silly gunzTarPerm extractEntry nan_callbacks_pre_12_inl.h
+973 silly gunzTarPerm modified mode [ 'nan_callbacks_pre_12_inl.h', 436, 420 ]
+974 silly gunzTarPerm extractEntry nan_converters_43_inl.h
+975 silly gunzTarPerm modified mode [ 'nan_converters_43_inl.h', 436, 420 ]
+976 silly gunzTarPerm extractEntry nan_converters_pre_43_inl.h
+977 silly gunzTarPerm modified mode [ 'nan_converters_pre_43_inl.h', 436, 420 ]
+978 silly gunzTarPerm extractEntry nan_implementation_12_inl.h
+979 silly gunzTarPerm modified mode [ 'nan_implementation_12_inl.h', 436, 420 ]
+980 silly gunzTarPerm extractEntry nan_implementation_pre_12_inl.h
+981 silly gunzTarPerm modified mode [ 'nan_implementation_pre_12_inl.h', 436, 420 ]
+982 silly gunzTarPerm extractEntry nan_maybe_43_inl.h
+983 silly gunzTarPerm modified mode [ 'nan_maybe_43_inl.h', 436, 420 ]
+984 silly gentlyRm /Users/ivanlee/Desktop/work_git/Hello_world/doc/node_modules/.staging/debug-c0ba8e5d/node_modules is being purged
+985 verbose gentlyRm don't care about contents; nuking /Users/ivanlee/Desktop/work_git/Hello_world/doc/node_modules/.staging/debug-c0ba8e5d/node_modules
+986 silly gunzTarPerm extractEntry nan_maybe_pre_43_inl.h
+987 silly gunzTarPerm modified mode [ 'nan_maybe_pre_43_inl.h', 436, 420 ]
+988 silly gunzTarPerm extractEntry nan_new.h
+989 silly gunzTarPerm modified mode [ 'nan_new.h', 436, 420 ]
+990 silly gunzTarPerm extractEntry nan_object_wrap.h
+991 silly gunzTarPerm modified mode [ 'nan_object_wrap.h', 436, 420 ]
+992 silly gunzTarPerm extractEntry nan_persistent_12_inl.h
+993 silly gunzTarPerm modified mode [ 'nan_persistent_12_inl.h', 436, 420 ]
+994 silly gunzTarPerm extractEntry nan_persistent_pre_12_inl.h
+995 silly gunzTarPerm modified mode [ 'nan_persistent_pre_12_inl.h', 436, 420 ]
+996 silly gunzTarPerm extractEntry nan_string_bytes.h
+997 silly gunzTarPerm modified mode [ 'nan_string_bytes.h', 436, 420 ]
+998 silly gunzTarPerm extractEntry nan_typedarray_contents.h
+999 silly gunzTarPerm modified mode [ 'nan_typedarray_contents.h', 436, 420 ]
+1000 silly gunzTarPerm extractEntry nan_weak.h
+1001 silly gunzTarPerm modified mode [ 'nan_weak.h', 436, 420 ]
+1002 silly gunzTarPerm extractEntry CHANGELOG.md
+1003 silly gunzTarPerm modified mode [ 'CHANGELOG.md', 436, 420 ]
+1004 silly gunzTarPerm extractEntry tools/package.json
+1005 silly gunzTarPerm modified mode [ 'tools/package.json', 436, 420 ]
+1006 silly gentlyRm /Users/ivanlee/Desktop/work_git/Hello_world/doc/node_modules/.staging/util-51d336ce/node_modules is being purged
+1007 verbose gentlyRm don't care about contents; nuking /Users/ivanlee/Desktop/work_git/Hello_world/doc/node_modules/.staging/util-51d336ce/node_modules
+1008 silly gunzTarPerm extractEntry tools/README.md
+1009 silly gunzTarPerm modified mode [ 'tools/README.md', 436, 420 ]
+1010 silly gunzTarPerm extractEntry tools/1to2.js
+1011 silly gunzTarPerm modified mode [ 'tools/1to2.js', 509, 493 ]
+1012 silly gentlyRm /Users/ivanlee/Desktop/work_git/Hello_world/doc/node_modules/.staging/win32ole-62904085/node_modules is being purged
+1013 verbose gentlyRm don't care about contents; nuking /Users/ivanlee/Desktop/work_git/Hello_world/doc/node_modules/.staging/win32ole-62904085/node_modules
+1014 silly gentlyRm /Users/ivanlee/Desktop/work_git/Hello_world/doc/node_modules/.staging/ref-052b0356/node_modules is being purged
+1015 verbose gentlyRm don't care about contents; nuking /Users/ivanlee/Desktop/work_git/Hello_world/doc/node_modules/.staging/ref-052b0356/node_modules
+1016 silly gentlyRm /Users/ivanlee/Desktop/work_git/Hello_world/doc/node_modules/.staging/nan-b9a50500/node_modules is being purged
+1017 verbose gentlyRm don't care about contents; nuking /Users/ivanlee/Desktop/work_git/Hello_world/doc/node_modules/.staging/nan-b9a50500/node_modules
+1018 silly doParallel preinstall 11
+1019 silly preinstall async@1.5.2 /Users/ivanlee/Desktop/work_git/Hello_world/doc/node_modules/.staging/async-ea13c9dc
+1020 info lifecycle async@1.5.2~preinstall: async@1.5.2
+1021 silly preinstall bindings@1.2.1 /Users/ivanlee/Desktop/work_git/Hello_world/doc/node_modules/.staging/bindings-6061236a
+1022 info lifecycle bindings@1.2.1~preinstall: bindings@1.2.1
+1023 silly preinstall inherits@2.0.1 /Users/ivanlee/Desktop/work_git/Hello_world/doc/node_modules/.staging/inherits-7d7c26ff
+1024 info lifecycle inherits@2.0.1~preinstall: inherits@2.0.1
+1025 silly preinstall ms@0.7.1 /Users/ivanlee/Desktop/work_git/Hello_world/doc/node_modules/.staging/ms-8b9edbf2
+1026 info lifecycle ms@0.7.1~preinstall: ms@0.7.1
+1027 silly preinstall debug@2.2.0 /Users/ivanlee/Desktop/work_git/Hello_world/doc/node_modules/.staging/debug-c0ba8e5d
+1028 info lifecycle debug@2.2.0~preinstall: debug@2.2.0
+1029 silly preinstall nan@2.3.5 /Users/ivanlee/Desktop/work_git/Hello_world/doc/node_modules/.staging/nan-b9a50500
+1030 info lifecycle nan@2.3.5~preinstall: nan@2.3.5
+1031 silly preinstall ref@1.3.2 /Users/ivanlee/Desktop/work_git/Hello_world/doc/node_modules/.staging/ref-052b0356
+1032 info lifecycle ref@1.3.2~preinstall: ref@1.3.2
+1033 silly preinstall ref-struct@1.0.2 /Users/ivanlee/Desktop/work_git/Hello_world/doc/node_modules/.staging/ref-struct-f1f8ed01
+1034 info lifecycle ref-struct@1.0.2~preinstall: ref-struct@1.0.2
+1035 silly preinstall util@0.10.3 /Users/ivanlee/Desktop/work_git/Hello_world/doc/node_modules/.staging/util-51d336ce
+1036 info lifecycle util@0.10.3~preinstall: util@0.10.3
+1037 silly preinstall assert@1.4.1 /Users/ivanlee/Desktop/work_git/Hello_world/doc/node_modules/.staging/assert-d021b963
+1038 info lifecycle assert@1.4.1~preinstall: assert@1.4.1
+1039 silly preinstall win32ole@0.1.3 /Users/ivanlee/Desktop/work_git/Hello_world/doc/node_modules/.staging/win32ole-62904085
+1040 info lifecycle win32ole@0.1.3~preinstall: win32ole@0.1.3
+1041 silly lifecycle async@1.5.2~preinstall: no script for preinstall, continuing
+1042 silly lifecycle bindings@1.2.1~preinstall: no script for preinstall, continuing
+1043 silly lifecycle inherits@2.0.1~preinstall: no script for preinstall, continuing
+1044 silly lifecycle ms@0.7.1~preinstall: no script for preinstall, continuing
+1045 silly lifecycle debug@2.2.0~preinstall: no script for preinstall, continuing
+1046 silly lifecycle nan@2.3.5~preinstall: no script for preinstall, continuing
+1047 silly lifecycle ref@1.3.2~preinstall: no script for preinstall, continuing
+1048 silly lifecycle ref-struct@1.0.2~preinstall: no script for preinstall, continuing
+1049 silly lifecycle util@0.10.3~preinstall: no script for preinstall, continuing
+1050 silly lifecycle assert@1.4.1~preinstall: no script for preinstall, continuing
+1051 silly lifecycle win32ole@0.1.3~preinstall: no script for preinstall, continuing
+1052 silly doReverseSerial remove 0
+1053 silly doSerial move 0
+1054 silly doSerial finalize 11
+1055 silly finalize /Users/ivanlee/Desktop/work_git/Hello_world/doc/node_modules/async
+1056 silly finalize /Users/ivanlee/Desktop/work_git/Hello_world/doc/node_modules/bindings
+1057 silly finalize /Users/ivanlee/Desktop/work_git/Hello_world/doc/node_modules/inherits
+1058 silly finalize /Users/ivanlee/Desktop/work_git/Hello_world/doc/node_modules/ms
+1059 silly finalize /Users/ivanlee/Desktop/work_git/Hello_world/doc/node_modules/debug
+1060 silly finalize /Users/ivanlee/Desktop/work_git/Hello_world/doc/node_modules/nan
+1061 silly finalize /Users/ivanlee/Desktop/work_git/Hello_world/doc/node_modules/ref
+1062 silly finalize /Users/ivanlee/Desktop/work_git/Hello_world/doc/node_modules/ref-struct
+1063 silly finalize /Users/ivanlee/Desktop/work_git/Hello_world/doc/node_modules/util
+1064 silly finalize /Users/ivanlee/Desktop/work_git/Hello_world/doc/node_modules/assert
+1065 silly finalize /Users/ivanlee/Desktop/work_git/Hello_world/doc/node_modules/win32ole
+1066 silly doSerial build 11
+1067 silly build async@1.5.2
+1068 info linkStuff async@1.5.2
+1069 silly linkStuff async@1.5.2 has /Users/ivanlee/Desktop/work_git/Hello_world/doc/node_modules as its parent node_modules
+1070 verbose linkBins async@1.5.2
+1071 verbose linkMans async@1.5.2
+1072 silly build bindings@1.2.1
+1073 info linkStuff bindings@1.2.1
+1074 silly linkStuff bindings@1.2.1 has /Users/ivanlee/Desktop/work_git/Hello_world/doc/node_modules as its parent node_modules
+1075 verbose linkBins bindings@1.2.1
+1076 verbose linkMans bindings@1.2.1
+1077 silly build inherits@2.0.1
+1078 info linkStuff inherits@2.0.1
+1079 silly linkStuff inherits@2.0.1 has /Users/ivanlee/Desktop/work_git/Hello_world/doc/node_modules as its parent node_modules
+1080 verbose linkBins inherits@2.0.1
+1081 verbose linkMans inherits@2.0.1
+1082 silly build ms@0.7.1
+1083 info linkStuff ms@0.7.1
+1084 silly linkStuff ms@0.7.1 has /Users/ivanlee/Desktop/work_git/Hello_world/doc/node_modules as its parent node_modules
+1085 verbose linkBins ms@0.7.1
+1086 verbose linkMans ms@0.7.1
+1087 silly build debug@2.2.0
+1088 info linkStuff debug@2.2.0
+1089 silly linkStuff debug@2.2.0 has /Users/ivanlee/Desktop/work_git/Hello_world/doc/node_modules as its parent node_modules
+1090 verbose linkBins debug@2.2.0
+1091 verbose linkMans debug@2.2.0
+1092 silly build nan@2.3.5
+1093 info linkStuff nan@2.3.5
+1094 silly linkStuff nan@2.3.5 has /Users/ivanlee/Desktop/work_git/Hello_world/doc/node_modules as its parent node_modules
+1095 verbose linkBins nan@2.3.5
+1096 verbose linkMans nan@2.3.5
+1097 silly build ref@1.3.2
+1098 info linkStuff ref@1.3.2
+1099 silly linkStuff ref@1.3.2 has /Users/ivanlee/Desktop/work_git/Hello_world/doc/node_modules as its parent node_modules
+1100 verbose linkBins ref@1.3.2
+1101 verbose linkMans ref@1.3.2
+1102 silly build ref-struct@1.0.2
+1103 info linkStuff ref-struct@1.0.2
+1104 silly linkStuff ref-struct@1.0.2 has /Users/ivanlee/Desktop/work_git/Hello_world/doc/node_modules as its parent node_modules
+1105 verbose linkBins ref-struct@1.0.2
+1106 verbose linkMans ref-struct@1.0.2
+1107 silly build util@0.10.3
+1108 info linkStuff util@0.10.3
+1109 silly linkStuff util@0.10.3 has /Users/ivanlee/Desktop/work_git/Hello_world/doc/node_modules as its parent node_modules
+1110 verbose linkBins util@0.10.3
+1111 verbose linkMans util@0.10.3
+1112 silly build assert@1.4.1
+1113 info linkStuff assert@1.4.1
+1114 silly linkStuff assert@1.4.1 has /Users/ivanlee/Desktop/work_git/Hello_world/doc/node_modules as its parent node_modules
+1115 verbose linkBins assert@1.4.1
+1116 verbose linkMans assert@1.4.1
+1117 silly build win32ole@0.1.3
+1118 info linkStuff win32ole@0.1.3
+1119 silly linkStuff win32ole@0.1.3 has /Users/ivanlee/Desktop/work_git/Hello_world/doc/node_modules as its parent node_modules
+1120 verbose linkBins win32ole@0.1.3
+1121 verbose linkMans win32ole@0.1.3
+1122 silly doSerial global-link 0
+1123 silly doParallel update-linked 0
+1124 silly doSerial install 11
+1125 silly install async@1.5.2 /Users/ivanlee/Desktop/work_git/Hello_world/doc/node_modules/.staging/async-ea13c9dc
+1126 info lifecycle async@1.5.2~install: async@1.5.2
+1127 silly lifecycle async@1.5.2~install: no script for install, continuing
+1128 silly install bindings@1.2.1 /Users/ivanlee/Desktop/work_git/Hello_world/doc/node_modules/.staging/bindings-6061236a
+1129 info lifecycle bindings@1.2.1~install: bindings@1.2.1
+1130 silly lifecycle bindings@1.2.1~install: no script for install, continuing
+1131 silly install inherits@2.0.1 /Users/ivanlee/Desktop/work_git/Hello_world/doc/node_modules/.staging/inherits-7d7c26ff
+1132 info lifecycle inherits@2.0.1~install: inherits@2.0.1
+1133 silly lifecycle inherits@2.0.1~install: no script for install, continuing
+1134 silly install ms@0.7.1 /Users/ivanlee/Desktop/work_git/Hello_world/doc/node_modules/.staging/ms-8b9edbf2
+1135 info lifecycle ms@0.7.1~install: ms@0.7.1
+1136 silly lifecycle ms@0.7.1~install: no script for install, continuing
+1137 silly install debug@2.2.0 /Users/ivanlee/Desktop/work_git/Hello_world/doc/node_modules/.staging/debug-c0ba8e5d
+1138 info lifecycle debug@2.2.0~install: debug@2.2.0
+1139 silly lifecycle debug@2.2.0~install: no script for install, continuing
+1140 silly install nan@2.3.5 /Users/ivanlee/Desktop/work_git/Hello_world/doc/node_modules/.staging/nan-b9a50500
+1141 info lifecycle nan@2.3.5~install: nan@2.3.5
+1142 silly lifecycle nan@2.3.5~install: no script for install, continuing
+1143 silly install ref@1.3.2 /Users/ivanlee/Desktop/work_git/Hello_world/doc/node_modules/.staging/ref-052b0356
+1144 info lifecycle ref@1.3.2~install: ref@1.3.2
+1145 verbose lifecycle ref@1.3.2~install: unsafe-perm in lifecycle true
+1146 verbose lifecycle ref@1.3.2~install: PATH: /usr/local/lib/node_modules/npm/bin/node-gyp-bin:/Users/ivanlee/Desktop/work_git/Hello_world/doc/node_modules/ref/node_modules/.bin:/Users/ivanlee/Desktop/work_git/Hello_world/doc/node_modules/.bin:/usr/local/bin:/Users/ivanlee/ALL/mongodb/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin
+1147 verbose lifecycle ref@1.3.2~install: CWD: /Users/ivanlee/Desktop/work_git/Hello_world/doc/node_modules/ref
+1148 silly lifecycle ref@1.3.2~install: Args: [ '-c', 'node-gyp rebuild' ]
+1149 silly lifecycle ref@1.3.2~install: Returned: code: 0  signal: null
+1150 silly install ref-struct@1.0.2 /Users/ivanlee/Desktop/work_git/Hello_world/doc/node_modules/.staging/ref-struct-f1f8ed01
+1151 info lifecycle ref-struct@1.0.2~install: ref-struct@1.0.2
+1152 silly lifecycle ref-struct@1.0.2~install: no script for install, continuing
+1153 silly install util@0.10.3 /Users/ivanlee/Desktop/work_git/Hello_world/doc/node_modules/.staging/util-51d336ce
+1154 info lifecycle util@0.10.3~install: util@0.10.3
+1155 silly lifecycle util@0.10.3~install: no script for install, continuing
+1156 silly install assert@1.4.1 /Users/ivanlee/Desktop/work_git/Hello_world/doc/node_modules/.staging/assert-d021b963
+1157 info lifecycle assert@1.4.1~install: assert@1.4.1
+1158 silly lifecycle assert@1.4.1~install: no script for install, continuing
+1159 silly install win32ole@0.1.3 /Users/ivanlee/Desktop/work_git/Hello_world/doc/node_modules/.staging/win32ole-62904085
+1160 info lifecycle win32ole@0.1.3~install: win32ole@0.1.3
+1161 verbose lifecycle win32ole@0.1.3~install: unsafe-perm in lifecycle true
+1162 verbose lifecycle win32ole@0.1.3~install: PATH: /usr/local/lib/node_modules/npm/bin/node-gyp-bin:/Users/ivanlee/Desktop/work_git/Hello_world/doc/node_modules/win32ole/node_modules/.bin:/Users/ivanlee/Desktop/work_git/Hello_world/doc/node_modules/.bin:/usr/local/bin:/Users/ivanlee/ALL/mongodb/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin
+1163 verbose lifecycle win32ole@0.1.3~install: CWD: /Users/ivanlee/Desktop/work_git/Hello_world/doc/node_modules/win32ole
+1164 silly lifecycle win32ole@0.1.3~install: Args: [ '-c', 'node-gyp rebuild' ]
+1165 silly lifecycle win32ole@0.1.3~install: Returned: code: 1  signal: null
+1166 info lifecycle win32ole@0.1.3~install: Failed to exec install script
+1167 verbose unlock done using /Users/ivanlee/.npm/_locks/staging-987a7fb51c4e96e4.lock for /Users/ivanlee/Desktop/work_git/Hello_world/doc/node_modules/.staging
+1168 silly rollbackFailedOptional Starting
+1169 silly rollbackFailedOptional Finishing
+1170 silly runTopLevelLifecycles Starting
+1171 silly runTopLevelLifecycles Finishing
+1172 silly install printInstalled
+1173 warn enoent ENOENT: no such file or directory, open '/Users/ivanlee/Desktop/work_git/Hello_world/doc/package.json'
+1174 warn doc No description
+1175 warn doc No repository field.
+1176 warn doc No README data
+1177 warn doc No license field.
+1178 verbose stack Error: win32ole@0.1.3 install: `node-gyp rebuild`
+1178 verbose stack Exit status 1
+1178 verbose stack     at EventEmitter.<anonymous> (/usr/local/lib/node_modules/npm/lib/utils/lifecycle.js:239:16)
+1178 verbose stack     at emitTwo (events.js:100:13)
+1178 verbose stack     at EventEmitter.emit (events.js:185:7)
+1178 verbose stack     at ChildProcess.<anonymous> (/usr/local/lib/node_modules/npm/lib/utils/spawn.js:24:14)
+1178 verbose stack     at emitTwo (events.js:100:13)
+1178 verbose stack     at ChildProcess.emit (events.js:185:7)
+1178 verbose stack     at maybeClose (internal/child_process.js:850:16)
+1178 verbose stack     at Process.ChildProcess._handle.onexit (internal/child_process.js:215:5)
+1179 verbose pkgid win32ole@0.1.3
+1180 verbose cwd /Users/ivanlee/Desktop/work_git/Hello_world/doc
+1181 error Darwin 15.4.0
+1182 error argv "/usr/local/bin/node" "/usr/local/bin/npm" "install" "win32ole"
+1183 error node v5.10.1
+1184 error npm  v3.8.3
+1185 error code ELIFECYCLE
+1186 error win32ole@0.1.3 install: `node-gyp rebuild`
+1186 error Exit status 1
+1187 error Failed at the win32ole@0.1.3 install script 'node-gyp rebuild'.
+1187 error Make sure you have the latest version of node.js and npm installed.
+1187 error If you do, this is most likely a problem with the win32ole package,
+1187 error not with npm itself.
+1187 error Tell the author that this fails on your system:
+1187 error     node-gyp rebuild
+1187 error You can get information on how to open an issue for this project with:
+1187 error     npm bugs win32ole
+1187 error Or if that isn't available, you can get their info via:
+1187 error     npm owner ls win32ole
+1187 error There is likely additional logging output above.
+1188 verbose exit [ 1, true ]
