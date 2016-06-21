@@ -1,0 +1,38 @@
+doctype html
+html
+	head
+		meta(charset='utf-8')
+		title jade
+	body
+		div
+			ul
+				li wo
+				li shi
+				li xiang
+				li ni
+		//这是注释
+		//-这是注释
+		//
+			多行注释
+			duohangzhushi
+		h1 好好学习
+		input(type = 'checkbox',checked)
+		input(
+ 		type='checkbox',
+ 		name='agreement',
+ 		checked
+		)
+
+		- var authenticated = true
+		span(class=authenticated ? 'authed' : 'anon')
+		- var currentUrl = '/about'
+		a(class={active: currentUrl === '/'} href='/') Home
+		a(class={active: currentUrl === '/about'} href='/about') About
+
+		.link
+		a.link
+		#button
+		a#button
+		div
+			a(style={color: 'red', background: 'green'})
+		script alert('123');
