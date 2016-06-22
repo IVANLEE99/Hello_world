@@ -16,6 +16,7 @@ html
 			多行注释
 			duohangzhushi
 		h1 好好学习
+		a(href='http://www.w3cplus.com/html/how-to-use-jade.html')
 		input(type = 'checkbox',checked)
 		input(
  		type='checkbox',
@@ -35,4 +36,34 @@ html
 		a#button
 		div
 			a(style={color: 'red', background: 'green'})
+		//属性
+		- var attributes = {'data-foo': 'bar'};
+		div#foo(data-bar="foo")&attributes(attributes)
+		//单行文本
+		p 单行文本
+		//管道文本使用管道符
+		p
+			| 这是管道文本，行数无限
+			| 这也是管道文本，行数无限
+		//多行文本需要在文本后添加点号
+		p.
+			这是多行文本，注意缩进
+			这是多行文本注意缩进
+		//将 JavaScript 嵌入到 Jade 中，一共有三种方法。第一种方式是使用 -，代码中的特殊字符不会被转义：
+		- for (var x = 0; x < 3; x++)
+			//不转义
+			li <a></a>
+			//转义
+			li= '<a></a>'
+			//不转义
+			p!= 'This code is <escaped>!'
+
+		// 转义字符串插值 `#{}`
+		- var theGreat = "<span>escape!</span>";
+		p This will be safe: #{theGreat}
+		// 不转义字符串插值 `!{}`
+		- var theGreat = "<span>escape!</span>";
+		p This will be safe: !{theGreat}
+		// 标签插值
+		p #[a(href="jade-lang.com") Jade]
 		script alert('123');
