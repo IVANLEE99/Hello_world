@@ -1,0 +1,116 @@
+doctype html
+html(lang="zh-CN")
+  head
+    meta(charset='utf-8')
+
+    meta(name='viewport', content='width=device-width, initial-scale=1')
+
+    link(href="http://libs.baidu.com/bootstrap/2.3.2/css/bootstrap.min.css" rel="stylesheet")
+
+    link(href='css/show_result.css' rel='stylesheet')
+    script(src="http://libs.baidu.com/bootstrap/2.3.2/js/bootstrap.min.js")
+    title 立项监测报告
+  body
+    .title.text-center 立项检测报告
+
+    .first_conclusion
+      h4 一、总体结论
+      ul
+        li 总相似比：
+          span 90.91
+          （红色区域为论文相似部分）
+        li 剩余相似比：
+          span 9.09%
+
+    .second_conclusion
+      h4 二、相似片段分布
+      .line_show
+        -var location=[{head:0.125,tail:0.4},{head:0.5,tail:0.7},{head:0.75,tail:0.8}]
+          each loca in location
+            div(style="position:absolute;display: inline-block;background-color:red;width:#{900*(loca.tail-loca.head)}px;height:100%;margin:0;padding:0;left:#{900*loca.head}px") 
+        
+      div.div 
+        div 头部 
+        div 中前部 
+        div 中部
+        div 中后部
+        div 尾部
+      h6 注：
+        span 红色区域
+        为文档相似部分
+
+    .third_conclusion
+      h4 三、典型相似文档（共1篇）
+      table.table.table-bordered
+        tr
+          td 序号
+          td 相似比
+          td 文档名称
+          td 项目名称
+          td 申报人
+          td 申报部门
+          td 项目负责人
+          td 年度
+          td 费用（万元）
+    -var similarDocs=[{
+      similarity:'0.60',
+      docName:'001+杨畅+档案知识管理',
+      project:'kwz',
+      applicant:'杨幂',
+      department:'天创实业',
+      manage:'李晨新',
+      year:'2015',
+      cost:'10.00'
+      },{
+      similarity:'0.60',
+      docName:'001+杨畅+档案知识管理',
+      project:'kwz',
+      applicant:'杨幂',
+      department:'天创实业',
+      manage:'李晨新',
+      year:'2015',
+      cost:'10.00'
+      },{
+      similarity:'0.60',
+      docName:'001+杨畅+档案知识管理',
+      project:'kwz',
+      applicant:'杨幂',
+      department:'天创实业',
+      manage:'李晨新',
+      year:'2015',
+      cost:'10.00'
+      }]
+      each doc in similarDocs
+        tr
+          td 1
+          td #{doc.similarity*100}%
+          td 001+杨畅+‘档案知识管理’
+          td kwz
+          td 杨幂
+          td 天创实业
+          td 李晨新
+          td 2015
+          td 10.00  
+
+    .fourth_conclusion
+      h4 四、相似问档片段（共2个） 
+      table.table.table-bordered
+        tr
+          td(rowspan="2") 1
+          td 送检文档片段
+          td(style='text-align:center') 相似文档片段[
+            span 18.18%
+            | ]
+        tr
+          td
+            .origin
+          td
+            .hit
+
+    .introductions
+      p 说明：
+        ol
+          li 总相似比~~送检文档与检测范围全部数据相似部分的字数/送检文档总字数
+          li 剩余相似比~~总相似比-典型片段总相似比
+          li 本报告为检测系统算法自动生成，仅供参考
+

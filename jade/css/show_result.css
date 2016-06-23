@@ -1,0 +1,49 @@
+body{
+  margin-left: 20px
+}
+/*标题*/
+.title{
+  font-size: 18px
+}
+
+.first_conclusion,.second_conclusion,.third_conclusion,.fourth_conclusion{
+   margin-top: 20px
+}
+.first_conclusion ul{
+  list-style-type: none
+}
+
+li{
+  line-height: 20px;
+  height: 20px
+}
+
+span{
+  color: red
+}
+/*分布图*/
+.line_show{
+  width: 900px;
+  height: 30px;
+  border: 1px solid black;
+  margin: 0 auto;
+  position: relative
+}
+.div{
+  width: 900px;
+  margin: 0 auto
+}
+
+/*
+头部 
+        div 中前部 
+        div 中部
+        div 中后部
+ */
+.div div{
+  margin: 0;
+  padding: 0;
+  width: 19%;
+  text-align: center;
+  display: inline-block
+}
