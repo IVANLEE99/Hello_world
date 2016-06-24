@@ -53,9 +53,9 @@ html(lang="zh-CN")
           td 年度
           td 费用（万元）
         -var similarDocs=[{similarity:'0.60',docName:'001+杨畅+档案知识管理',project:'kwz',applicant:'杨幂',department:'天创实业',manager:'李晨新',year:'2015',cost:'10.00'},{similarity:'0.60',docName:'001+杨畅+档案知识管理',project:'kwz',applicant:'杨幂',department:'天创实业',manager:'李晨新',year:'2015',cost:'10.00'},{similarity:'0.60',docName:'001+杨畅+档案知识管理',project:'kwz',applicant:'杨幂',department:'天创实业',manager:'李晨新',year:'2015',cost:'10.00'},{similarity:'0.60',docName:'001+杨畅+档案知识管理',project:'kwz',applicant:'杨幂',department:'天创实业',manager:'李晨新',year:'2015',cost:'10.00'}]
-        each doc in similarDocs
+        each doc, index in similarDocs
           tr
-            td 1
+            td #{index+1}
             td #{doc.similarity}%
             td #{doc.docName}
             td #{doc.project}
