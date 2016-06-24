@@ -25,7 +25,7 @@ span{
 .line_show{
   width: 900px;
   height: 30px;
-  border: 1px solid black;
+  border: 1px solid #C1C5C7;
   margin: 0 auto;
   position: relative
 }
