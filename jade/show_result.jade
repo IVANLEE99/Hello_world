@@ -5,10 +5,10 @@ html(lang="zh-CN")
 
     meta(name='viewport', content='width=device-width, initial-scale=1')
 
-    link(href="http://libs.baidu.com/bootstrap/2.3.2/css/bootstrap.min.css" rel="stylesheet")
+    //link(href="http://libs.baidu.com/bootstrap/2.3.2/css/bootstrap.min.css" rel="stylesheet")
 
     link(href='css/show_result.css' rel='stylesheet')
-    script(src="http://libs.baidu.com/bootstrap/2.3.2/js/bootstrap.min.js")
+    //script(src="http://libs.baidu.com/bootstrap/2.3.2/js/bootstrap.min.js")
     title 立项监测报告
   body
     .title.text-center 立项检测报告
@@ -27,7 +27,7 @@ html(lang="zh-CN")
       .line_show
         -var location=[{head:0.125,tail:0.4},{head:0.5,tail:0.7},{head:0.75,tail:0.8}]
           each loca in location
-            div(style="position:absolute;display: inline-block;background-color:red;width:#{900*(loca.tail-loca.head)}px;height:100%;margin:0;padding:0;left:#{900*loca.head}px") 
+            div(style="position:absolute;display: inline-block;background-color:red;width:#{(loca.tail-loca.head)*100}%;height:100%;margin:0;padding:0;left:#{loca.head*100}%") 
         
       div.div 
         div 头部 
@@ -90,8 +90,8 @@ html(lang="zh-CN")
           tr
             td
               .origin 位置：
-                .line_show(style='width:450px;height:20px')
-                  div(style="position:absolute;display: inline-block;background-color:red;width:#{450*(section.origin.index.tail-section.origin.index.head)}px;height:100%;margin:0;padding:0;left:#{450*section.origin.index.head}px") 
+                .line_show(style='width:80%;height:20px')
+                  div(style="position:absolute;display: inline-block;background-color:red;width:#{100*(section.origin.index.tail-section.origin.index.head)}%;height:100%;margin:0;padding:0;left:#{100*section.origin.index.head}%") 
               
                 div.div(style='width:450px;height:20px') 
                   div 头部 

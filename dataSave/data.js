@@ -11,7 +11,7 @@ var file = path.join(process.cwd(), '/.tasks');
 // console.log('args=====' + args);
 // console.log('command=====' + command);
 // console.log('taskDescription=====' + taskDescription);
-// console.log('file=====' + file);
+console.log('file=====' + file);
 switch(command){
 	case 'list':
 	listTasks(file);
@@ -24,4 +24,42 @@ switch(command){
 	default:
 	console.log('Usage: ' + process.argv[0]
 		+ ' list|add [taskDescription]');
+}
+
+function loadOrInitializeTaskArray(file, cb) {
+  fs.exists(file, function (exists) {
+    var tasks = [];
+    if (exists) {
+      fs.readFile(file, 'utf8', function (err, data) {
+        if (err) { throw err;}
+        var data = data.toString();
+        var tasks = JSON.parse(data || '[]');
+        cb(tasks);
+      });
+    }else{
+      cb([]);
+    }
+  });
+}
+
+function listTasks(file) {
+  loadOrInitializeTaskArray(file, function (tasks) {
+    for(var i in tasks){
+      console.log(tasks[i]);
+    }
+  });
+}
+
+function storeTasks(file, tasks) {
+  fs.writeFile(file, JSON.stringify(tasks), 'utf8', function (err) {
+    if (err) {throw err;}
+    console.log('saved');
+  });
+}
+
+function addTask(file, taskDescription ) {
+  loadOrInitializeTaskArray(file, function (tasks) {
+    tasks.push(taskDescription);
+    storeTasks(file, tasks);
+  })
 }
