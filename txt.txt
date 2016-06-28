@@ -1,10 +1,24 @@
-'<!DOCTYPE html><html lang="en"><head><meta charset="UTF-8"><title>TO-DO-LIST</title></head><body>'
-+'<h1>TO-DO-LIST</h1>'
-+'<ul>'
-	
-+'</ul>'
-+'<form action="/" method="post">'
-+'<p><input type="text" name="item"></p>'
-+'<p><input type="submit" value="Add Item"></p>'
-+'</form>'
-+'</body></html>'
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Document</title>
+</head>
+<body>
+
+'<form action="/" method="POST">'
+  + '<p>Date (YYYY-MM-DD):<br>'
+  + '<input type="text" name="date">'
+  + '</p>'
+
+  + '<p>Hours worked:<br>'
+  + '<input type="text" name="hours">'
+  + '</p>'
+
+  + '<p>Description:<br>'
+  + '<textarea name="description"></textarea>'
+  + '</p>'
+  + '<input type="submit" value="Add">'
+  + '</form>'
+</body>
+</html>
