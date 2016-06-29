@@ -6,11 +6,40 @@ html
 		title jade
 	body
 		div
+			-
+				var obj = {
+				    "size": 10,
+				    "from": 0,
+				    "explain": false,
+				    "highlight": {},
+				    "query": {
+				        "conjuncts": [
+				            {
+				                "match": "上海泉灵信息科技有限公司",
+				                "filed": "F_Applicant",
+				                "boost": 10,
+				                "prefix_length": 0,
+				                "fuzziness": 0
+				            }
+				        ]
+				    },
+				    "fields": [
+				        "*"
+				    ],
+				    "facets": {
+				        "class": {
+				            "size": 100,
+				            "field": "F_PatentType"
+				        }
+				    }
+					};
+			-var obj2 = typeof(obj);
+			-var obj5 = typeof(obj);
 			ul
-				li wo
-				li shi
-				li xiang
-				li ni
+				li wo______#{obj}
+				li shi______#{obj2}
+				li xiang______
+				li ni______
 		//这是注释
 		//-这是注释
 		//
@@ -67,4 +96,4 @@ html
 		p This will be safe: !{theGreat}
 		// 标签插值
 		p #[a(href="jade-lang.com") Jade]
-		script alert('123');
+		
