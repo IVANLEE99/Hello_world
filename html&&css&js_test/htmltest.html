@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>htmltest</title>
+  <script src="http://libs.baidu.com/jquery/1.10.2/jquery.min.js"></script>
+</head>
+<body>
+  <div>
+    wo shi lee l
+  </div>
+  <div>wo shi lee xiang</div>
+  <div>wo shi lee xod</div>
+  <div>wo shi lee xsdf </div>
+  <input id="search" type="text">
+  <input type="button" onclick='search()'>
+</body>
+  <script>
+    $('#search').change(function () {
+      alert('change');
+      var search = $('#search').val();
+      if (!search) {
+        alert('空');
+        $('div').show();}
+        else{
+          alert('hide');
+           $('div:not(:contains("' + search + '"))').hide();
+        }
+   
+    });
+    function search() {
+      // alert('lee');
+      var search = $('#search').val();
+    $('div:not(:contains("' + search + '"))').hide();
+    }
+  </script>
+</html>

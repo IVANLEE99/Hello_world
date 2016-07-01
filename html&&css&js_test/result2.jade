@@ -1,0 +1,140 @@
+include ../mixins/record_one_minxins
+extends ../layouts/default_jade
+block title
+  title 上钞专利库 - 搜索结果
+
+block css
+  link(href='/styles/side-nav.css', rel='stylesheet')
+  link(href='/styles/popup.css', rel='stylesheet')
+  link(href='/styles/right-content.css', rel='stylesheet')
+
+block content
+  // 搜索条，左间距30px button62*42
+    ul
+      each record in query_result.hits
+        li=record.fields.F_PatentName
+        li=record.fields.F_PatentType
+        li=record.id
+        li=record.fields.F_Applicant
+        li=record.fields.F_ApplicationDate
+        li=record.fields.F_Abstract
+  .searchBar
+    .input-group
+      input.form-control(type='text', placeholder='请输入搜索内容')
+      .input-group-btn
+        button#dropdownBtn.btn.btn-default.dropdown-toggle(type='button', data-toggle='dropdown', aria-haspopup='true', aria-expanded='false')
+          span.glyphicon.glyphicon-triangle-bottom(aria-hidden='true')
+        button.btn.btn-primary(type='button', aria-haspopup='true', aria-expanded='false')
+          span.glyphicon.glyphicon-search(aria-hidden='true')
+      // /btn-group
+    // input-group
+    .popup
+      form
+
+        +search_one
+        +search_one
+        +search_one
+        .search-auxiliary
+          button.btn.btn-default
+            | +
+          .time
+            label
+              input.form-control(type='text', placeholder='起始年份')
+            | 至
+            label
+              input.form-control(type='text', placeholder='结束年份')
+        button.search.btn.btn-primary
+          | 搜索
+  // /searchBar
+  .main
+    .side-nav(ng-app='resultBarModule')
+      form(ng-controller='resultBarCtr')
+        //- - var test = {{ facets }}
+        //- - var test = 'aaa'
+        //- - var fa = '#{query_result.facets}'
+        
+        //- - var fri = query_result.facets.patent.terms[0].term
+        //- p you have #{fri} friends
+        //- {{ show(fa)}}
+        //- {{click()}}
+        - var items = []
+        each val, index in query_result.facets
+          each terms in val.terms
+            - var str = terms.term + '(' + terms.count + ')'
+            //- p= str
+            items.push(str)
+          +bar_type(index ,items)
+          
+        //- +bar_type(s ,['发明专利 (327)','实用新型 (188)'])
+        //- +bar_type('专利分类',['2011 (24)','作业;运输 (130)','物理 (93)','化学;冶金 (24)','电学 (4)'])
+        //- +bar_type('申请日期',['纺织;造纸 (118)','2012 (118)','2013 (230)','2014 (330)','2015 (130)','2016 (30)'])
+        //- +bar_type('专利类型',['发明专利 (327)','实用新型 (188)'])
+
+    - var hits = '#{query_result.total_hits}'
+    .right-content
+      .row.record-number
+        .col-xs-3
+          .record-number-word
+            | 检测到共
+            span #{query_result.total_hits}条记录
+        // col-md-3 结束
+        .col-xs-9
+          // Single button
+          .btn-group
+            button.btn.btn-default.dropdown-toggle.record-number-top(type='button', data-toggle='dropdown', aria-haspopup='true', aria-expanded='false')
+              | 按时间排序
+              span.caret
+            ul.dropdown-menu
+              li
+                a(href='#') 按时间排序
+              li
+                a(href='#') 按时间排序
+              li
+                a(href='#') 按时间排序
+              li
+                a(href='#') 按时间排序
+        // col-md-9 结束
+      // record-number结束
+      .record-all
+        each record, index in query_result.hits
+          +record_one_1(index,record.fields.F_PatentName, record.fields.F_PatentType, record.id, record.fields.F_Applicant, record.fields.F_ApplicationDate, record.fragments.F_Abstract)
+
+      .page
+
+      .page(ng-app='resultModule',ng-controller='pageCtrl')
+
+        ul.pagination
+          li
+           a(href='#pre', aria-label='Previous')
+             span(aria-hidden='true') &laquo;
+          li
+            a(href='#one') #{one}
+          li.active
+            a(href='#two') #{two}
+          li
+            a(href='#three') #{three}
+          li
+            a(href='#four') #{four}
+          li
+            a(href='#five') #{five}
+          li
+            a(href='#next', aria-label='Next')
+              span(aria-hidden='true') &raquo;
+         //- .page(ng-controller='pageCtrl')
+          //- ul.pagination
+          //-   li(ng-class="{disabled: isFirstPage()}")
+          //-     a(ng-click="selectPrevious()" href="#") &laquo;
+          //-   li(ng-repeat="page in pageList", ng-class="{active: isActive(page)}")
+          //-     a(ng-click="selectPage(page)" href="#") {{page}}
+          //-   li(ng-class="{disabled: isLastPage()}")
+          //-     a(ng-click="selectNext()" href="#") &raquo;    // record-all结束
+          // right-content结束
+          // record-all结束
+          // right-content结束
+    .clearfix
+
+block js
+  script(src='/js/result.js')
+  script(src='/js/bootstrap-select.min.js')
+  script(src='/js/paging.js')
+  script(src='/js/resultBar.js')
