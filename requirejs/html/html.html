@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>requirejs</title>
+  <script src="../js/require.js"></script>
+  <!-- <script src="../js/test.js"></script> -->
+  <script type="text/javascript">
+            require(["../js/test.js", "test.js"], function () {
+              alert('ok');
+            });
+        </script>
+</head>
+<body>
+  <span>lee</span><span>ivan</span>
+</body>
+</html>
